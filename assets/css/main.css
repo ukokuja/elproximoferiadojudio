@@ -3509,7 +3509,7 @@ table.alt tbody tr td {
 
 /* Banner */
 
-#banner {
+body {
 	background: url('https://d13yacurqjgara.cloudfront.net/users/822246/screenshots/2332773/thin_line_jewish_new_year_holiday_seamless_blue_pattern-01_1x.jpg') !important;
 	color: #ffffff;
 	padding: 1em 0 10em 0;
@@ -3634,7 +3634,7 @@ table.alt tbody tr td {
 	line-height: 1;
 	margin: 0px auto;
 	position: relative;
-	width: 40%;
+	width: 100%;
 	font-family: 'Old Standard TT', serif;
 }
 
@@ -3887,7 +3887,7 @@ table.alt tbody tr td {
 	border-width: 4px 1px;*/
 	max-width: 70%;
 	padding: 10px;
-	margin: 3em auto;
+	margin: 0.5em auto;
 }
 #banner div.description h5{
 	margin:0;
@@ -3897,4 +3897,20 @@ table.alt tbody tr td {
 }
 #banner div.description span{
 	font-size: 20px;
+}
+.holidays.memo{
+	font-size: 8px;
+	font-style: italic
+}
+html{
+	overflow: hidden;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* Internet Explorer/Edge */
+  user-select: none;           /* Non-prefixed version, currently
+                                  not supported by any browser */
 }

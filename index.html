@@ -4,7 +4,7 @@
 	templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
-<html>
+<html ng-app="israel" class="noselect">
 	<head>
 		<title>Typify by TEMPLATED</title>
 		<meta charset="utf-8" />
@@ -18,19 +18,9 @@
 	<body>
 
 		<!-- Banner -->
-			<section id="banner">
-				<div class="flechas izquierda" style="display: block;"></div>
-				<p>FALTAN</p>
-				<h2><strong>31</strong></h2>
-				<p>DIAS</p>
-				<div class="description">
-					<h5>LUNES 26 DE NOVIEMBRE</h5>
-					<span>Iom Kipur</span>
-				</div>
-				<div class="flechas derecha" style="display: block;"></div>
-			</section>
+			<jewish-holidays></jewish-holidays>
 
-		<!-- One -->
+		<!-- One
 			<section id="one" class="wrapper special">
 				<div class="inner">
 					<header class="major">
@@ -66,7 +56,7 @@
 				</div>
 			</section>
 
-		<!-- Two -->
+		<!-- Two
 			<section id="two" class="wrapper style2 special">
 				<div class="inner narrow">
 					<header>
@@ -93,18 +83,23 @@
 			</section>
 
 
-		<!-- Footer -->
+		<!-- Footer
 			<footer id="footer">
 				<div class="copyright">
 					&copy; Untitled. Design: <a href="http://templated.co/">TEMPLATED</a>.
 				</div>
 			</footer>
-
+-->
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="node_modules/angular/angular.js"></script>
+			<script src="node_modules/underscore/underscore.js"></script>
+			<script src="assets/js/angular-translate.js"></script>
+			<script src="assets/js/app.js"></script>
 			<script src="assets/js/controllers.js"></script>
 			<script src="assets/js/services.js"></script>
+			<script src="assets/js/directives.js"></script>
+			<script src="assets/js/moment-with-locales.js"></script>
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
