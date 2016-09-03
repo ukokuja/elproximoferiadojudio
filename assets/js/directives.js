@@ -1,9 +1,12 @@
 israel
-.directive('generalHolidays', ['$timeout', 'NationService', function($timeout, ns){
+.directive('generalHolidays', ['$timeout', 'NationService', '$compile', function($timeout, ns, $compile){
   return {
     restrict: 'E',
     templateUrl: "/assets/templates/holiday.html",
     link: function(scope, element, attrs){
+      scope.$watch('holidays', function(oldvalue, newvalue) {
+        $compile(element.contents())(scope);
+     });
       var banner = element[0].getElementsByTagName('section');
       scope.next = function(){
         $(banner).fadeOut("fast",function(){
