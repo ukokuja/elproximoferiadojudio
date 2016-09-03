@@ -45,7 +45,7 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
     },
 
   }
-}]).factory('NationService', ['$http', function($http){
+}]).factory('NationService', ['$http', '$q', function($http, $q){
     return {
       getNation: function(){
         var nation = localStorage.getItem('nation');
@@ -57,7 +57,7 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
         return $http.get('http://ip-api.com/json');
       },
       getFlagByCode: function(code){
-        return "http://flagpedia.net/data/flags/normal/"+code+".png"
+        return "http://flagpedia.net/data/flags/normal/"+code.toLowerCase()+".png"
       }
     }
 }])

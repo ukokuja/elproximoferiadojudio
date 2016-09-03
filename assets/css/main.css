@@ -3870,6 +3870,7 @@ body {
 	margin-top: -130px!important;
 	background-image: url(http://elproximoferiado.com/2016/flechas.png?v2013);
 	cursor: pointer;
+	z-index: 10000;
 }
 
 .flechas.izquierda {
@@ -3913,4 +3914,16 @@ html{
   -ms-user-select: none;       /* Internet Explorer/Edge */
   user-select: none;           /* Non-prefixed version, currently
                                   not supported by any browser */
+}
+.national-holidays{
+	padding: 10px;
+	font-size: 14px;
+}
+.national-holidays img{
+	width: 30px;
+  margin-right: 15px;
+}
+
+#banner{
+	margin-top: -50px;
 }
