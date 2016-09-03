@@ -9,5 +9,5 @@ israel.config(function ($translateProvider) {
     FALTAN: '',
     DIAS: 'DAYS LEFT',
   });
-  $translateProvider.preferredLanguage('es');
+  $translateProvider.preferredLanguage('en');
 })
