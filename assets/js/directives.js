@@ -49,7 +49,7 @@ israel
         }
       }
       $scope.getNextJewishHoliday = function(start){
-        start = start || 0;
+        start = start || $scope.id;
         for(var i = start ; i<$scope.holidays.length; i++){
           if(!$scope.holidays[i].national)
           return i;
@@ -96,12 +96,10 @@ israel
              '-webkit-text-fill-color': 'transparent'
           };
           return item.public;
-        })
-        $timeout(function(){
-          console.log(nationalHolidays);
-            $scope.holidays = _.sortBy(_.union(nationalHolidays, jewishHolidays), 'daysLeft');
-            $rootScope.$broadcast('got_holidays', false);
-        }, 100)
+        });
+        var holid = _.sortBy(_.union(nationalHolidays, jewishHolidays), 'daysLeft');
+        $scope.holidays = holid
+        $rootScope.$broadcast('got_holidays', false);
         saveOriginRequest();
       }
 

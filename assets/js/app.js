@@ -1,6 +1,7 @@
 var israel = angular.module('israel', ['pascalprecht.translate']);
 
-israel.config(function ($translateProvider) {
+israel.config(function ($translateProvider, $httpProvider) {
+  $httpProvider.defaults.timeout = 5000;
   $translateProvider.translations('es', {
     FALTAN: 'FALTAN',
     DIAS: "DÍAS",
