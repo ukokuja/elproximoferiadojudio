@@ -1,7 +1,7 @@
-<section id="banner">
+<section id="banner" ng-show="holidays">
   <div class="flechas izquierda" style="display: block;" ng-click="previous()" ng-if="id>0"></div>
   <p translate="FALTAN"></p>
-  <h2><strong>{{holidays[id].daysLeft}}</strong></h2>
+  <h2><strong ng-style='holidays[id].style' class="bigDays">{{holidays[id].daysLeft}}</strong></h2>
   <p translate="DIAS"></p>
   <div class="description">
     <h5>{{holidays[id].date}}</h5>

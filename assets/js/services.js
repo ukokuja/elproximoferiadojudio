@@ -15,11 +15,22 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
       return today._d;
     }
   }
-}]).factory('NationalHolidays', ['NationService', '$http', function(ns, $http){
+}]).factory('NationalHolidays', ['NationService', '$http', '$q', function(ns, $http, $q){
   var key = "b09de4d7-921f-4841-9023-04c1c543a9a3";
 
   function getHolidaysByNation(nation){
-    var url = "https://holidayapi.com/v1/holidays?country="+nation.countryCode+"&year=2016&month=09&key="+key;
+    var supported = checkSupportedCountries(nation.data.countryCode)
+    if(!supported){
+      var data = {
+        data:{
+          "holidays": []
+        }
+      }
+      var def = $q.defer();
+      def.resolve(data);
+      return def.promise
+    }
+    var url = "https://holidayapi.com/v1/holidays?country="+nation.data.countryCode+"&year=2016&month=09&key="+key;
     var holidays = localStorage.getItem(nation.countryCode+'_holidays');
     if(holidays){
       var def = $q.defer();
@@ -29,6 +40,9 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
     return $http.get(url)
   }
 
+  function checkSupportedCountries(countryCode){
+    return supportedCountries.indexOf(countryCode) >=0;
+  }
   return{
     getHolidays: function(){
       var nation = localStorage.getItem('nation');
@@ -36,9 +50,18 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
         return getHolidaysByNation(JSON.parse(nation));
       }else{
         return ns.getNation().then(function(success){
-            var nation = success.data
+            var nation = success
             localStorage.setItem('nation', JSON.stringify(nation));
             return getHolidaysByNation(nation);
+        }, function(error){
+          var data = {
+            data:{
+              "holidays": []
+            }
+          }
+          var def = $q.defer();
+          def.resolve(data);
+          return def.promise
         });
       }
 

@@ -1,5 +1,5 @@
 israel
-.directive('generalHolidays', ['$timeout', function($timeout){
+.directive('generalHolidays', ['$timeout', 'NationService', function($timeout, ns){
   return {
     restrict: 'E',
     templateUrl: "/assets/templates/holiday.html",
@@ -17,20 +17,23 @@ israel
           $(banner).fadeIn("fast");
         });
       }
+
       scope.previous = function(){
         $(banner).fadeOut("fast",function(){
           scope.$apply(function(){
             if(scope.nationalHoliday){
               scope.id--;
             } else {
-              scope.id = $scope.getPrevJewishHoliday(scope.id);
+              scope.id = scope.getPrevJewishHoliday(scope.id);
             }
           })
           $(banner).fadeIn("fast");
         });
       }
+
     },
-    controller: ['$scope', 'JewishHolidaysService', '$timeout','NationalHolidays', '$rootScope', function($scope, jhs, $timeout, nh, $rootScope){
+    controller: ['$scope', 'JewishHolidaysService', '$timeout','NationalHolidays'
+    , 'NationService', '$rootScope',function($scope, jhs, $timeout, nh, ns, $rootScope){
       $scope.id = 0;
       $scope.holidays = {}
       $scope.nationalHoliday = true;
@@ -47,7 +50,7 @@ israel
       }
       $scope.getNextJewishHoliday = function(start){
         start = start || 0;
-        for(var i = start+1 ; i<$scope.holidays.length; i++){
+        for(var i = start ; i<$scope.holidays.length; i++){
           if(!$scope.holidays[i].national)
           return i;
         }
@@ -55,47 +58,75 @@ israel
       }
       $scope.getPrevJewishHoliday = function(start){
         if(start>0){
-          for(var i = start-1 ; i>=0; i--){
+          for(var i = start ; i>=0; i--){
             if(!$scope.holidays[i].national)
             return i;
           }
         }
+        start = 0;
         return 0;
       }
       function saveOriginRequest(){
-        var country = JSON.parse(localStorage.getItem('nation'));
-        firebase.database().ref('countries/' + country.countryCode).push(firebase.database.ServerValue.TIMESTAMP);
+        $timeout(function(){
+          var country = JSON.parse(localStorage.getItem('nation'));
+          firebase.database().ref('countries/' + country.countryCode).push(firebase.database.ServerValue.TIMESTAMP);
+        }, 10000);
       }
-      var date = jhs.getDate();
-      jhs.getHolidays().then(function(success){
-        var holidays = success.data.items;
-        localStorage.setItem('jewish_holidays', JSON.stringify(success));
-        nh.getHolidays().then(function(success){
-          var nationals = success.data.holidays;
-          var jewishHolidays = _.filter(holidays, function(item){
-            var m = moment(item.date, "YYYY-MM-DD")
-            item.daysLeft = Math.round((m-date) / 86400000);
-            return item.daysLeft >=0 && item.yomtov === true;
-          })
-          var nationalHolidays = _.filter(nationals, function(item){
-            var m = moment(item.observed, "YYYY-MM-DD")
-            item.daysLeft = Math.round((m-date) / 86400000);
-            item.national = true;
-            item.title = item.name;
-            return item.public;
-          })
-          $timeout(function(){
+      function addHolidays(success, holidays){
+        var nationals = success.data.holidays;
+        var jewishHolidays = _.filter(holidays, function(item){
+          var m = moment(item.date, "YYYY-MM-DD")
+          item.daysLeft = Math.round((m-date) / 86400000);
+          item.style = {
+            'background': 'url("'+ns.getFlagByCode("IL")+'") 50% 50%',
+            '-webkit-background-clip': 'text',
+             '-webkit-text-fill-color': 'transparent'
+          };
+          return item.daysLeft >=0 && item.yomtov === true;
+        })
+        var nationalHolidays = _.filter(nationals, function(item){
+          var m = moment(item.observed, "YYYY-MM-DD")
+          item.daysLeft = Math.round((m-date) / 86400000);
+          item.national = true;
+          item.title = item.name;
+          var nation = JSON.parse(localStorage.getItem('nation'));
+          item.style = {
+            'background': 'url("'+ns.getFlagByCode(nation.data.countryCode)+'") 50% 50%',
+            '-webkit-background-clip': 'text',
+             '-webkit-text-fill-color': 'transparent'
+          };
+          return item.public;
+        })
+        $timeout(function(){
+          console.log(nationalHolidays);
             $scope.holidays = _.sortBy(_.union(nationalHolidays, jewishHolidays), 'daysLeft');
-          })
-          saveOriginRequest();
+            $rootScope.$broadcast('got_holidays', false);
+        }, 100)
+        saveOriginRequest();
+      }
+
+      var date = jhs.getDate();
+      jhs.getHolidays().then(function(jewish){
+        var jewish_holidays = jewish.data.items;
+        localStorage.setItem('jewish_holidays', JSON.stringify(jewish));
+        $rootScope.$broadcast('got_holidays', true);
+        nh.getHolidays().then(function(nationals){
+            addHolidays(nationals, jewish_holidays)
+
         }, function(error){
-          saveOriginRequest();
+          var data = {
+            data:{
+              "holidays": []
+            }
+          };
+          addHolidays(data,jewish_holidays);
         })
 
       });
     }]
   }
-}]).directive('nationalHolidays', ['$rootScope', 'NationService', '$timeout', function($rootScope, ns, $timeout){
+}])
+.directive('nationalHolidays', ['$rootScope', 'NationService', '$timeout', function($rootScope, ns, $timeout){
   return {
     scope: {},
     templateUrl: "/assets/templates/national-holidays.html",
@@ -110,10 +141,24 @@ israel
       }
       scope.nation = {};
       ns.getNation().then(function(nation){
-          scope.nation = nation;
-          scope.nation.icon = ns.getFlagByCode(nation.countryCode);
+          scope.nation = nation.data;
+          scope.nation.icon = ns.getFlagByCode(scope.nation.countryCode);
       })
 
     }]
   }
 }])
+.directive('loaderHolidays', ['$rootScope', function($rootScope){
+  return {
+    scope: {},
+    templateUrl: "/assets/templates/loader-holidays.html",
+    link: function(scope, element, attr){
+      scope.jewish = false;
+      $rootScope.$on('got_holidays', function(e,data){
+        scope.jewish = data;
+        if(!data)
+          element[0].style.display = "none";
+      })
+    }
+  }
+}]);
