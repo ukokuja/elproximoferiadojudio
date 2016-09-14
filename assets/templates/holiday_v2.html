@@ -1,0 +1,30 @@
+<section id="banner" ng-show="holidays">
+  <div class="flechas izquierda" style="display: block;" ng-click="previous()" ng-if="id>0"></div>
+  <div ng-show="holidays[id].daysLeft < 14">
+    <p translate="FALTAN" ng-show="holidays[id].daysLeft >= 2"></p>
+    <p translate="FALTA" ng-show="holidays[id].daysLeft < 2"></p>
+    <h2><strong ng-style='holidays[id].style' class="bigDays">{{holidays[id].daysLeft}}</strong></h2>
+    <p translate="DIAS" ng-show="holidays[id].daysLeft >= 2"></p>
+    <p translate="DIA" ng-show="holidays[id].daysLeft < 2"></p>
+  </div>
+  <div ng-show="holidays[id].daysLeft > 13 && holidays[id].weeks < 5">
+    <p translate="FALTAN" ng-show="holidays[id].weeks >= 2"></p>
+    <p translate="FALTA" ng-show="holidays[id].weeks < 2"></p>
+    <h2><strong ng-style='holidays[id].style' class="bigDays">{{holidays[id].weeks}}</strong></h2>
+    <p translate="SEMANAS" ng-show="holidays[id].weeks >= 2"></p>
+    <p translate="SEMANA" ng-show="holidays[id].weeks < 2"></p>
+  </div>
+  <div ng-show="holidays[id].weeks > 4">
+    <p translate="FALTAN" ng-show="holidays[id].months >= 2"></p>
+    <p translate="FALTA" ng-show="holidays[id].months < 2"></p>
+    <h2><strong ng-style='holidays[id].style' class="bigDays">{{holidays[id].months}}</strong></h2>
+    <p translate="MESES" ng-show="holidays[id].months >= 2"></p>
+    <p translate="MES" ng-show="holidays[id].months < 2"></p>
+  </div>
+  <div class="description">
+    <h5>{{holidays[id].date}}</h5>
+    <span>{{holidays[id].title}}</span><br>
+    <span class="holidays memo">{{holidays[id].memo}}</span>
+  </div>
+  <div class="flechas derecha" style="display: block;" ng-click="next()" ng-if="id<holidays.length-1"></div>
+</section>

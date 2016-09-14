@@ -3868,7 +3868,7 @@ body {
 	height: 187px!important;
 	top: 45%;
 	margin-top: -130px!important;
-	background-image: url(http://elproximoferiado.com/2016/flechas.png?v2013);
+	background-image: url('/images/arrows.png');
 	cursor: pointer;
 	z-index: 10000;
 }
@@ -3934,7 +3934,7 @@ html{
 .opacity0{
 	opacity: 0
 }
-@media screen and (max-width: 480px) {
+@media all and (max-width: 1090px) {
 
 	.flechas.izquierda {
 		display: none;

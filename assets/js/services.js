@@ -30,8 +30,12 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
       def.resolve(data);
       return def.promise
     }
-    var url = "https://holidayapi.com/v1/holidays?country="+nation.data.countryCode+"&year=2016&month=09&key="+key;
-    var holidays = localStorage.getItem(nation.countryCode+'_holidays');
+    if(supported == 1){
+        var url = "https://holidayapi.com/v1/holidays?country="+nation.data.countryCode+"&year=2016&month=09&key="+key;
+    }else{
+      var url = "https://thenextholiday-1c49d.firebaseio.com/holidays/"+nation.data.countryCode+".json"
+    }
+    var holidays = localStorage.getItem(nation.data.countryCode+'_holidays');
     if(holidays){
       var def = $q.defer();
       def.resolve(JSON.parse(holidays));
@@ -41,7 +45,9 @@ israel.factory('JewishHolidaysService', ['$http', '$q', function($http, $q) {
   }
 
   function checkSupportedCountries(countryCode){
-    return supportedCountries.indexOf(countryCode) >=0;
+    if(supportedCountries.indexOf(countryCode)>=0)
+      return 1
+    return firebaseCountries.indexOf(countryCode)>=0 ? 2 : false;
   }
   return{
     getHolidays: function(){

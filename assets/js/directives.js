@@ -52,7 +52,7 @@ israel
         }
       }
       $scope.getNextJewishHoliday = function(start){
-        start = start || $scope.id;
+        start = start + 1 || 0;
         for(var i = start ; i<$scope.holidays.length; i++){
           if(!$scope.holidays[i].national)
           return i;
@@ -72,7 +72,7 @@ israel
       function saveOriginRequest(){
         $timeout(function(){
           var country = JSON.parse(localStorage.getItem('nation'));
-          firebase.database().ref('countries/' + country.countryCode).push(firebase.database.ServerValue.TIMESTAMP);
+          firebase.database().ref('countries/' + country.data.countryCode).push(firebase.database.ServerValue.TIMESTAMP);
         }, 10000);
       }
       function addHolidays(success, holidays){
@@ -80,16 +80,22 @@ israel
         var jewishHolidays = _.filter(holidays, function(item){
           var m = moment(item.date, "YYYY-MM-DD")
           item.daysLeft = Math.round((m-date) / 86400000);
-          item.style = {
+          item.months = parseInt(item.daysLeft / 30)
+          item.weeks = parseInt(item.daysLeft / 7)
+          item.days = item.daysLeft % 7
+          /*item.style = {
             'background': 'url("'+ns.getFlagByCode("IL")+'") 50% 50%',
             '-webkit-background-clip': 'text',
              '-webkit-text-fill-color': 'transparent'
-          };
+          };*/
           return item.daysLeft >=0 && item.yomtov === true;
         })
         var nationalHolidays = _.filter(nationals, function(item){
           var m = moment(item.observed, "YYYY-MM-DD")
           item.daysLeft = Math.round((m-date) / 86400000);
+          item.months = parseInt(item.daysLeft / 30)
+          item.weeks = parseInt(item.daysLeft / 7)
+          item.days = item.daysLeft % 7
           item.national = true;
           item.title = item.name;
           var nation = JSON.parse(localStorage.getItem('nation'));
@@ -98,7 +104,7 @@ israel
             '-webkit-background-clip': 'text',
              '-webkit-text-fill-color': 'transparent'
           };
-          return item.public;
+          return item.daysLeft >=0 && item.public;
         });
         var holid = _.sortBy(_.union(nationalHolidays, jewishHolidays), 'daysLeft');
         $scope.holidays = holid

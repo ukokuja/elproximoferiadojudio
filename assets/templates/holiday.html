@@ -1,8 +1,10 @@
 <section id="banner" ng-show="holidays">
   <div class="flechas izquierda" style="display: block;" ng-click="previous()" ng-if="id>0"></div>
-  <p translate="FALTAN"></p>
+  <p translate="FALTAN" ng-show="holidays[id].daysLeft >= 2"></p>
+  <p translate="FALTA" ng-show="holidays[id].daysLeft < 2"></p>
   <h2><strong ng-style='holidays[id].style' class="bigDays">{{holidays[id].daysLeft}}</strong></h2>
-  <p translate="DIAS"></p>
+  <p translate="DIAS" ng-show="holidays[id].daysLeft >= 2"></p>
+  <p translate="DIA" ng-show="holidays[id].daysLeft < 2"></p>
   <div class="description">
     <h5>{{holidays[id].date}}</h5>
     <span>{{holidays[id].title}}</span><br>
