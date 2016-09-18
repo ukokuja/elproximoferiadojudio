@@ -1,0 +1,12 @@
+{
+  "rules": {
+    "countries": {
+      ".read": true,
+      ".write": true
+    },
+    "holidays": {
+      ".read": true,
+      ".write": false
+    }
+  }
+}

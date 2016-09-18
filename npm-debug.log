@@ -1,0 +1,2665 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'grunt-ng-annotate',
+1 verbose cli   '--save-dev' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /home/lucas/projects/elproximoferiadojudio/package.json
+5 warn package.json thenextjewishholiday@0.1.0 No description
+6 warn package.json thenextjewishholiday@0.1.0 No repository field.
+7 warn package.json thenextjewishholiday@0.1.0 No license field.
+8 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/angular/package.json
+9 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt/package.json
+10 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-concat/package.json
+11 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-copy/package.json
+12 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-jshint/package.json
+13 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-nodeunit/package.json
+14 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-uglify/package.json
+15 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/package.json
+16 verbose installManyTop reading scoped package data from /home/lucas/projects/elproximoferiadojudio/node_modules/underscore/package.json
+17 info package.json grunt@0.4.4 No license field.
+18 info package.json grunt-contrib-jshint@0.10.0 No license field.
+19 info package.json grunt-contrib-uglify@0.5.1 No license field.
+20 info package.json grunt-contrib-nodeunit@0.4.1 No license field.
+21 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/package.json
+22 verbose install grunt-ng-annotate is installed as 2.0.2
+23 silly cache add args [ 'grunt-ng-annotate', null ]
+24 verbose cache add spec grunt-ng-annotate
+25 silly cache add parsed spec { raw: 'grunt-ng-annotate',
+25 silly cache add   scope: null,
+25 silly cache add   name: 'grunt-ng-annotate',
+25 silly cache add   rawSpec: '',
+25 silly cache add   spec: '*',
+25 silly cache add   type: 'range' }
+26 silly addNamed grunt-ng-annotate@*
+27 verbose addNamed "*" is a valid semver range for grunt-ng-annotate
+28 silly addNameRange { name: 'grunt-ng-annotate', range: '*', hasData: false }
+29 silly mapToRegistry name grunt-ng-annotate
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry http://registry.npmjs.org/
+32 silly mapToRegistry uri http://registry.npmjs.org/grunt-ng-annotate
+33 verbose addNameRange registry:http://registry.npmjs.org/grunt-ng-annotate not in flight; fetching
+34 verbose request uri http://registry.npmjs.org/grunt-ng-annotate
+35 verbose request no auth needed
+36 info attempt registry request try #1 at 14:55:38
+37 verbose request id 3c15ce948d17b786
+38 verbose etag "1JPEERMLGZXGLZA0CBU3OKUXT"
+39 http request GET http://registry.npmjs.org/grunt-ng-annotate
+40 http 304 http://registry.npmjs.org/grunt-ng-annotate
+41 silly get cb [ 304,
+41 silly get   { date: 'Fri, 16 Sep 2016 17:55:41 GMT',
+41 silly get     via: '1.1 varnish',
+41 silly get     'cache-control': 'max-age=300',
+41 silly get     etag: '"1JPEERMLGZXGLZA0CBU3OKUXT"',
+41 silly get     age: '56',
+41 silly get     connection: 'keep-alive',
+41 silly get     'x-served-by': 'cache-fra1223-FRA',
+41 silly get     'x-cache': 'HIT',
+41 silly get     'x-cache-hits': '1',
+41 silly get     'x-timer': 'S1474048541.970643,VS0,VE0',
+41 silly get     vary: 'Accept-Encoding' } ]
+42 verbose etag http://registry.npmjs.org/grunt-ng-annotate from cache
+43 verbose get saving grunt-ng-annotate to /home/lucas/.npm/registry.npmjs.org/grunt-ng-annotate/.cache.json
+44 silly addNameRange number 2 { name: 'grunt-ng-annotate', range: '*', hasData: true }
+45 silly addNameRange versions [ 'grunt-ng-annotate',
+45 silly addNameRange   [ '0.0.1',
+45 silly addNameRange     '0.0.2',
+45 silly addNameRange     '0.0.4',
+45 silly addNameRange     '0.0.5',
+45 silly addNameRange     '0.0.6',
+45 silly addNameRange     '0.0.7',
+45 silly addNameRange     '0.0.8',
+45 silly addNameRange     '0.1.0',
+45 silly addNameRange     '0.2.0',
+45 silly addNameRange     '0.2.1',
+45 silly addNameRange     '0.2.2',
+45 silly addNameRange     '0.2.3',
+45 silly addNameRange     '0.3.0',
+45 silly addNameRange     '0.3.1',
+45 silly addNameRange     '0.3.2',
+45 silly addNameRange     '0.4.0',
+45 silly addNameRange     '0.5.0',
+45 silly addNameRange     '0.6.0',
+45 silly addNameRange     '0.7.0',
+45 silly addNameRange     '0.8.0',
+45 silly addNameRange     '0.9.0',
+45 silly addNameRange     '0.9.1',
+45 silly addNameRange     '0.9.2',
+45 silly addNameRange     '0.10.0',
+45 silly addNameRange     '1.0.0',
+45 silly addNameRange     '1.0.1',
+45 silly addNameRange     '2.0.0',
+45 silly addNameRange     '2.0.1',
+45 silly addNameRange     '2.0.2' ] ]
+46 silly addNamed grunt-ng-annotate@2.0.2
+47 verbose addNamed "2.0.2" is a plain semver version for grunt-ng-annotate
+48 silly cache afterAdd grunt-ng-annotate@2.0.2
+49 verbose afterAdd /home/lucas/.npm/grunt-ng-annotate/2.0.2/package/package.json not in flight; writing
+50 verbose afterAdd /home/lucas/.npm/grunt-ng-annotate/2.0.2/package/package.json written
+51 silly install resolved [ { name: 'grunt-ng-annotate',
+51 silly install resolved     version: '2.0.2',
+51 silly install resolved     description: 'Add, remove and rebuild AngularJS dependency injection annotations.',
+51 silly install resolved     homepage: 'https://github.com/mgol/grunt-ng-annotate',
+51 silly install resolved     author: { name: 'Michał Gołębiowski', email: 'm.goleb@gmail.com' },
+51 silly install resolved     keywords:
+51 silly install resolved      [ 'angular',
+51 silly install resolved        'angularjs',
+51 silly install resolved        'annotate',
+51 silly install resolved        'annotation',
+51 silly install resolved        'annotations',
+51 silly install resolved        'di',
+51 silly install resolved        'dependency',
+51 silly install resolved        'injection',
+51 silly install resolved        'minify',
+51 silly install resolved        'grunt',
+51 silly install resolved        'gruntplugin',
+51 silly install resolved        'non-intrusive',
+51 silly install resolved        'transformation' ],
+51 silly install resolved     repository:
+51 silly install resolved      { type: 'git',
+51 silly install resolved        url: 'git+https://github.com/mgol/grunt-ng-annotate.git' },
+51 silly install resolved     bugs: { url: 'https://github.com/mgol/grunt-ng-annotate/issues' },
+51 silly install resolved     license: 'MIT',
+51 silly install resolved     files: [ 'tasks' ],
+51 silly install resolved     dependencies: { 'lodash.clonedeep': '^4.3.2', 'ng-annotate': '^1.2.1' },
+51 silly install resolved     devDependencies:
+51 silly install resolved      { 'babel-preset-es2015': '6.6.0',
+51 silly install resolved        'convert-source-map': '1.2.0',
+51 silly install resolved        'eslint-config-mgol': '0.0.14',
+51 silly install resolved        'expect.js': '0.3.1',
+51 silly install resolved        grunt: '1.0.1',
+51 silly install resolved        'grunt-babel': '6.0.0',
+51 silly install resolved        'grunt-cli': '1.2.0',
+51 silly install resolved        'grunt-contrib-clean': '1.0.0',
+51 silly install resolved        'grunt-contrib-copy': '1.0.0',
+51 silly install resolved        'grunt-eslint': '18.0.0',
+51 silly install resolved        'grunt-mocha-test': '0.12.7',
+51 silly install resolved        'load-grunt-tasks': '3.5.0',
+51 silly install resolved        mocha: '2.4.5',
+51 silly install resolved        'source-map': '0.5.3',
+51 silly install resolved        'time-grunt': '1.3.0' },
+51 silly install resolved     peerDependencies: { grunt: '>=0.4.5' },
+51 silly install resolved     scripts: { test: 'grunt' },
+51 silly install resolved     engines: { node: '>=0.12.7 <0.13 || >=4.1.1' },
+51 silly install resolved     gitHead: '1e8c6b94edb6bc99617711f93745c5714ce7b297',
+51 silly install resolved     _id: 'grunt-ng-annotate@2.0.2',
+51 silly install resolved     _shasum: '4993cbaf568d51d1c0c3be0af04a08a82299d14a',
+51 silly install resolved     _from: 'grunt-ng-annotate@*',
+51 silly install resolved     _npmVersion: '3.8.6',
+51 silly install resolved     _nodeVersion: '5.10.1',
+51 silly install resolved     _npmUser: { name: 'm_gol', email: 'm.goleb@gmail.com' },
+51 silly install resolved     dist:
+51 silly install resolved      { shasum: '4993cbaf568d51d1c0c3be0af04a08a82299d14a',
+51 silly install resolved        tarball: 'https://registry.npmjs.org/grunt-ng-annotate/-/grunt-ng-annotate-2.0.2.tgz' },
+51 silly install resolved     maintainers: [ [Object] ],
+51 silly install resolved     _npmOperationalInternal:
+51 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+51 silly install resolved        tmp: 'tmp/grunt-ng-annotate-2.0.2.tgz_1460539463818_0.3003306440077722' },
+51 silly install resolved     directories: {},
+51 silly install resolved     _resolved: 'http://registry.npmjs.org/grunt-ng-annotate/-/grunt-ng-annotate-2.0.2.tgz',
+51 silly install resolved     readme: 'ERROR: No README data found!' } ]
+52 info install grunt-ng-annotate@2.0.2 into /home/lucas/projects/elproximoferiadojudio
+53 info installOne grunt-ng-annotate@2.0.2
+54 verbose installOne of grunt-ng-annotate to /home/lucas/projects/elproximoferiadojudio not in flight; installing
+55 verbose lock using /home/lucas/.npm/_locks/grunt-ng-annotate-47467c1ba521d4f7.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+56 silly install write writing grunt-ng-annotate 2.0.2 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+57 verbose unbuild node_modules/grunt-ng-annotate
+58 info preuninstall grunt-ng-annotate@2.0.2
+59 info uninstall grunt-ng-annotate@2.0.2
+60 verbose unbuild rmStuff grunt-ng-annotate@2.0.2 from /home/lucas/projects/elproximoferiadojudio/node_modules
+61 info postuninstall grunt-ng-annotate@2.0.2
+62 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate is being purged from base /home/lucas/projects/elproximoferiadojudio
+63 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+64 silly vacuum-fs purging /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+65 silly vacuum-fs quitting because other entries in /home/lucas/projects/elproximoferiadojudio/node_modules
+66 verbose tar unpack /home/lucas/.npm/grunt-ng-annotate/2.0.2/package.tgz
+67 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+68 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate is being purged
+69 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+70 silly gunzTarPerm modes [ '755', '644' ]
+71 silly gunzTarPerm extractEntry package.json
+72 silly gunzTarPerm extractEntry README.md
+73 silly gunzTarPerm extractEntry LICENSE
+74 silly gunzTarPerm extractEntry tasks/ng-annotate.js
+75 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/package.json
+76 info preinstall grunt-ng-annotate@2.0.2
+77 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/package.json
+78 silly prepareForInstallMany adding lodash.clonedeep@^4.3.2 from grunt-ng-annotate dependencies
+79 silly prepareForInstallMany adding ng-annotate@^1.2.1 from grunt-ng-annotate dependencies
+80 silly prepareForInstallMany adding grunt@>=0.4.5 from grunt-ng-annotate peerDependencies
+81 warn peerDependencies The peer dependency grunt@>=0.4.5 included from grunt-ng-annotate will no
+82 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+83 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+84 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/package.json
+85 silly cache add args [ 'lodash.clonedeep@^4.3.2', null ]
+86 verbose cache add spec lodash.clonedeep@^4.3.2
+87 silly cache add args [ 'ng-annotate@^1.2.1', null ]
+88 verbose cache add spec ng-annotate@^1.2.1
+89 silly cache add parsed spec { raw: 'lodash.clonedeep@^4.3.2',
+89 silly cache add   scope: null,
+89 silly cache add   name: 'lodash.clonedeep',
+89 silly cache add   rawSpec: '^4.3.2',
+89 silly cache add   spec: '>=4.3.2 <5.0.0',
+89 silly cache add   type: 'range' }
+90 silly addNamed lodash.clonedeep@>=4.3.2 <5.0.0
+91 verbose addNamed ">=4.3.2 <5.0.0" is a valid semver range for lodash.clonedeep
+92 silly addNameRange { name: 'lodash.clonedeep',
+92 silly addNameRange   range: '>=4.3.2 <5.0.0',
+92 silly addNameRange   hasData: false }
+93 silly mapToRegistry name lodash.clonedeep
+94 silly mapToRegistry using default registry
+95 silly mapToRegistry registry http://registry.npmjs.org/
+96 silly mapToRegistry uri http://registry.npmjs.org/lodash.clonedeep
+97 verbose addNameRange registry:http://registry.npmjs.org/lodash.clonedeep not in flight; fetching
+98 silly cache add parsed spec { raw: 'ng-annotate@^1.2.1',
+98 silly cache add   scope: null,
+98 silly cache add   name: 'ng-annotate',
+98 silly cache add   rawSpec: '^1.2.1',
+98 silly cache add   spec: '>=1.2.1 <2.0.0',
+98 silly cache add   type: 'range' }
+99 silly addNamed ng-annotate@>=1.2.1 <2.0.0
+100 verbose addNamed ">=1.2.1 <2.0.0" is a valid semver range for ng-annotate
+101 silly addNameRange { name: 'ng-annotate', range: '>=1.2.1 <2.0.0', hasData: false }
+102 silly mapToRegistry name ng-annotate
+103 silly mapToRegistry using default registry
+104 silly mapToRegistry registry http://registry.npmjs.org/
+105 silly mapToRegistry uri http://registry.npmjs.org/ng-annotate
+106 verbose addNameRange registry:http://registry.npmjs.org/ng-annotate not in flight; fetching
+107 verbose request uri http://registry.npmjs.org/lodash.clonedeep
+108 verbose request no auth needed
+109 info attempt registry request try #1 at 14:55:39
+110 verbose etag "1GJ5JW5T4PC5B333LICUHIH73"
+111 http request GET http://registry.npmjs.org/lodash.clonedeep
+112 verbose request uri http://registry.npmjs.org/ng-annotate
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 14:55:39
+115 verbose etag "5X4DTLEVP2V89AM4UPF9RQCK0"
+116 http request GET http://registry.npmjs.org/ng-annotate
+117 http 304 http://registry.npmjs.org/lodash.clonedeep
+118 silly get cb [ 304,
+118 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+118 silly get     via: '1.1 varnish',
+118 silly get     'cache-control': 'max-age=300',
+118 silly get     etag: '"1GJ5JW5T4PC5B333LICUHIH73"',
+118 silly get     age: '251',
+118 silly get     connection: 'keep-alive',
+118 silly get     'x-served-by': 'cache-fra1223-FRA',
+118 silly get     'x-cache': 'HIT',
+118 silly get     'x-cache-hits': '2',
+118 silly get     'x-timer': 'S1474048542.199671,VS0,VE0',
+118 silly get     vary: 'Accept-Encoding' } ]
+119 verbose etag http://registry.npmjs.org/lodash.clonedeep from cache
+120 verbose get saving lodash.clonedeep to /home/lucas/.npm/registry.npmjs.org/lodash.clonedeep/.cache.json
+121 silly addNameRange number 2 { name: 'lodash.clonedeep',
+121 silly addNameRange   range: '>=4.3.2 <5.0.0',
+121 silly addNameRange   hasData: true }
+122 silly addNameRange versions [ 'lodash.clonedeep',
+122 silly addNameRange   [ '2.0.0',
+122 silly addNameRange     '2.1.0',
+122 silly addNameRange     '2.2.0',
+122 silly addNameRange     '2.2.1',
+122 silly addNameRange     '2.3.0',
+122 silly addNameRange     '2.4.0',
+122 silly addNameRange     '2.4.1',
+122 silly addNameRange     '3.0.0',
+122 silly addNameRange     '3.0.1',
+122 silly addNameRange     '3.0.2',
+122 silly addNameRange     '4.0.0',
+122 silly addNameRange     '4.0.1',
+122 silly addNameRange     '4.0.2',
+122 silly addNameRange     '4.0.3',
+122 silly addNameRange     '4.0.4',
+122 silly addNameRange     '4.1.0',
+122 silly addNameRange     '4.1.1',
+122 silly addNameRange     '4.2.0',
+122 silly addNameRange     '4.3.0',
+122 silly addNameRange     '4.3.1',
+122 silly addNameRange     '4.3.2',
+122 silly addNameRange     '4.4.0',
+122 silly addNameRange     '4.4.1',
+122 silly addNameRange     '4.5.0' ] ]
+123 silly addNamed lodash.clonedeep@4.5.0
+124 verbose addNamed "4.5.0" is a plain semver version for lodash.clonedeep
+125 silly cache afterAdd lodash.clonedeep@4.5.0
+126 verbose afterAdd /home/lucas/.npm/lodash.clonedeep/4.5.0/package/package.json not in flight; writing
+127 verbose afterAdd /home/lucas/.npm/lodash.clonedeep/4.5.0/package/package.json written
+128 http 304 http://registry.npmjs.org/ng-annotate
+129 silly get cb [ 304,
+129 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+129 silly get     via: '1.1 varnish',
+129 silly get     'cache-control': 'max-age=300',
+129 silly get     etag: '"5X4DTLEVP2V89AM4UPF9RQCK0"',
+129 silly get     age: '3',
+129 silly get     connection: 'keep-alive',
+129 silly get     'x-served-by': 'cache-fra1236-FRA',
+129 silly get     'x-cache': 'HIT',
+129 silly get     'x-cache-hits': '1',
+129 silly get     'x-timer': 'S1474048542.307884,VS0,VE0',
+129 silly get     vary: 'Accept-Encoding' } ]
+130 verbose etag http://registry.npmjs.org/ng-annotate from cache
+131 verbose get saving ng-annotate to /home/lucas/.npm/registry.npmjs.org/ng-annotate/.cache.json
+132 silly addNameRange number 2 { name: 'ng-annotate', range: '>=1.2.1 <2.0.0', hasData: true }
+133 silly addNameRange versions [ 'ng-annotate',
+133 silly addNameRange   [ '0.1.0',
+133 silly addNameRange     '0.1.1',
+133 silly addNameRange     '0.1.2',
+133 silly addNameRange     '0.2.0',
+133 silly addNameRange     '0.3.0',
+133 silly addNameRange     '0.3.1',
+133 silly addNameRange     '0.3.2',
+133 silly addNameRange     '0.3.3',
+133 silly addNameRange     '0.4.0',
+133 silly addNameRange     '0.5.0',
+133 silly addNameRange     '0.6.0',
+133 silly addNameRange     '0.7.0',
+133 silly addNameRange     '0.7.1',
+133 silly addNameRange     '0.7.2',
+133 silly addNameRange     '0.7.3',
+133 silly addNameRange     '0.8.0',
+133 silly addNameRange     '0.9.0',
+133 silly addNameRange     '0.9.1',
+133 silly addNameRange     '0.9.2',
+133 silly addNameRange     '0.9.3',
+133 silly addNameRange     '0.9.4',
+133 silly addNameRange     '0.9.5',
+133 silly addNameRange     '0.9.6',
+133 silly addNameRange     '0.9.7',
+133 silly addNameRange     '0.9.8',
+133 silly addNameRange     '0.9.9',
+133 silly addNameRange     '0.9.10',
+133 silly addNameRange     '0.9.11',
+133 silly addNameRange     '0.10.0',
+133 silly addNameRange     '0.10.1',
+133 silly addNameRange     '0.10.2',
+133 silly addNameRange     '0.10.3',
+133 silly addNameRange     '0.11.0',
+133 silly addNameRange     '0.12.0',
+133 silly addNameRange     '0.12.1',
+133 silly addNameRange     '0.13.0',
+133 silly addNameRange     '0.14.0',
+133 silly addNameRange     '0.14.1',
+133 silly addNameRange     '0.15.0',
+133 silly addNameRange     '0.15.1',
+133 silly addNameRange     '0.15.2',
+133 silly addNameRange     '0.15.3',
+133 silly addNameRange     '0.15.4',
+133 silly addNameRange     '1.0.0',
+133 silly addNameRange     '1.0.1',
+133 silly addNameRange     '1.0.2',
+133 silly addNameRange     '1.1.0',
+133 silly addNameRange     '1.1.1',
+133 silly addNameRange     '1.2.0',
+133 silly addNameRange     '1.2.1' ] ]
+134 silly addNamed ng-annotate@1.2.1
+135 verbose addNamed "1.2.1" is a plain semver version for ng-annotate
+136 silly cache afterAdd ng-annotate@1.2.1
+137 verbose afterAdd /home/lucas/.npm/ng-annotate/1.2.1/package/package.json not in flight; writing
+138 verbose afterAdd /home/lucas/.npm/ng-annotate/1.2.1/package/package.json written
+139 silly install resolved [ { name: 'lodash.clonedeep',
+139 silly install resolved     version: '4.5.0',
+139 silly install resolved     description: 'The lodash method `_.cloneDeep` exported as a module.',
+139 silly install resolved     homepage: 'https://lodash.com/',
+139 silly install resolved     icon: 'https://lodash.com/icon.svg',
+139 silly install resolved     license: 'MIT',
+139 silly install resolved     keywords: [ 'lodash-modularized', 'clonedeep' ],
+139 silly install resolved     author:
+139 silly install resolved      { name: 'John-David Dalton',
+139 silly install resolved        email: 'john.david.dalton@gmail.com',
+139 silly install resolved        url: 'http://allyoucanleet.com/' },
+139 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+139 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/lodash/lodash.git' },
+139 silly install resolved     scripts: { test: 'echo "See https://travis-ci.org/lodash/lodash-cli for testing details."' },
+139 silly install resolved     bugs: { url: 'https://github.com/lodash/lodash/issues' },
+139 silly install resolved     _id: 'lodash.clonedeep@4.5.0',
+139 silly install resolved     _shasum: 'e23f3f9c4f8fbdde872529c1071857a086e5ccef',
+139 silly install resolved     _from: 'lodash.clonedeep@>=4.3.2 <5.0.0',
+139 silly install resolved     _npmVersion: '2.15.10',
+139 silly install resolved     _nodeVersion: '4.4.7',
+139 silly install resolved     _npmUser: { name: 'jdalton', email: 'john.david.dalton@gmail.com' },
+139 silly install resolved     dist:
+139 silly install resolved      { shasum: 'e23f3f9c4f8fbdde872529c1071857a086e5ccef',
+139 silly install resolved        tarball: 'https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz' },
+139 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+139 silly install resolved     _npmOperationalInternal:
+139 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+139 silly install resolved        tmp: 'tmp/lodash.clonedeep-4.5.0.tgz_1471109839710_0.7944763591513038' },
+139 silly install resolved     directories: {},
+139 silly install resolved     _resolved: 'http://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz',
+139 silly install resolved     readme: 'ERROR: No README data found!' },
+139 silly install resolved   { name: 'ng-annotate',
+139 silly install resolved     version: '1.2.1',
+139 silly install resolved     description: 'add, remove and rebuild angularjs dependency injection annotations',
+139 silly install resolved     main: 'build/es5/ng-annotate-main.js',
+139 silly install resolved     repository:
+139 silly install resolved      { type: 'git',
+139 silly install resolved        url: 'git+https://github.com/olov/ng-annotate.git' },
+139 silly install resolved     dependencies:
+139 silly install resolved      { acorn: '~2.6.4',
+139 silly install resolved        alter: '~0.2.0',
+139 silly install resolved        'convert-source-map': '~1.1.2',
+139 silly install resolved        optimist: '~0.6.1',
+139 silly install resolved        'ordered-ast-traverse': '~1.1.1',
+139 silly install resolved        'simple-fmt': '~0.1.0',
+139 silly install resolved        'simple-is': '~0.2.0',
+139 silly install resolved        'source-map': '~0.5.3',
+139 silly install resolved        stable: '~0.1.5',
+139 silly install resolved        stringmap: '~0.2.2',
+139 silly install resolved        stringset: '~0.2.1',
+139 silly install resolved        tryor: '~0.1.2' },
+139 silly install resolved     devDependencies:
+139 silly install resolved      { 'coffee-script': '~1.10.0',
+139 silly install resolved        defs: '~1.1.1',
+139 silly install resolved        diff: '~2.2.1',
+139 silly install resolved        'find-line-column': '~0.5.2' },
+139 silly install resolved     keywords:
+139 silly install resolved      [ 'angular',
+139 silly install resolved        'angularjs',
+139 silly install resolved        'di',
+139 silly install resolved        'dependency',
+139 silly install resolved        'injection',
+139 silly install resolved        'annotate',
+139 silly install resolved        'annotation',
+139 silly install resolved        'annotations',
+139 silly install resolved        'transformation' ],
+139 silly install resolved     scripts: { test: 'node --harmony run-tests' },
+139 silly install resolved     bin: { 'ng-annotate': './build/es5/ng-annotate' },
+139 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+139 silly install resolved     license: 'MIT',
+139 silly install resolved     bugs: { url: 'https://github.com/olov/ng-annotate/issues' },
+139 silly install resolved     homepage: 'https://github.com/olov/ng-annotate#readme',
+139 silly install resolved     _id: 'ng-annotate@1.2.1',
+139 silly install resolved     _shasum: 'eb8bc1a6731c70d08af6b02c3eaf1a6e3fb9e6bb',
+139 silly install resolved     _resolved: 'http://registry.npmjs.org/ng-annotate/-/ng-annotate-1.2.1.tgz',
+139 silly install resolved     _from: 'ng-annotate@>=1.2.1 <2.0.0',
+139 silly install resolved     _npmVersion: '2.14.4',
+139 silly install resolved     _nodeVersion: '4.1.1',
+139 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+139 silly install resolved     maintainers: [ [Object] ],
+139 silly install resolved     dist:
+139 silly install resolved      { shasum: 'eb8bc1a6731c70d08af6b02c3eaf1a6e3fb9e6bb',
+139 silly install resolved        tarball: 'https://registry.npmjs.org/ng-annotate/-/ng-annotate-1.2.1.tgz' },
+139 silly install resolved     directories: {},
+139 silly install resolved     readme: 'ERROR: No README data found!' } ]
+140 info install lodash.clonedeep@4.5.0 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+141 info install ng-annotate@1.2.1 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+142 info installOne lodash.clonedeep@4.5.0
+143 verbose installOne of lodash.clonedeep to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate not in flight; installing
+144 info installOne ng-annotate@1.2.1
+145 verbose installOne of ng-annotate to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate not in flight; installing
+146 verbose lock using /home/lucas/.npm/_locks/lodash-clonedeep-83d815ee72f6d7c9.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+147 silly install write writing lodash.clonedeep 4.5.0 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+148 verbose lock using /home/lucas/.npm/_locks/ng-annotate-fa588e76953819d2.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+149 silly install write writing ng-annotate 1.2.1 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+150 verbose unbuild node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+151 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep is being purged from base /home/lucas/projects/elproximoferiadojudio
+152 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+153 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate
+154 verbose tar unpack /home/lucas/.npm/lodash.clonedeep/4.5.0/package.tgz
+155 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+156 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep is being purged
+157 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+158 silly gunzTarPerm modes [ '755', '644' ]
+159 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate is being purged from base /home/lucas/projects/elproximoferiadojudio
+160 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+161 verbose tar unpack /home/lucas/.npm/ng-annotate/1.2.1/package.tgz
+162 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+163 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate is being purged
+164 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+165 silly gunzTarPerm modes [ '755', '644' ]
+166 silly gunzTarPerm extractEntry package.json
+167 silly gunzTarPerm extractEntry
+168 silly gunzTarPerm extractEntry README.md
+169 silly gunzTarPerm extractEntry LICENSE
+170 silly gunzTarPerm extractEntry .travis.yml
+171 silly gunzTarPerm extractEntry build/
+172 silly gunzTarPerm extractEntry BUILD.md
+173 silly gunzTarPerm extractEntry index.js
+174 silly gunzTarPerm extractEntry CHANGES.md
+175 silly gunzTarPerm extractEntry defs-config.json
+176 silly gunzTarPerm extractEntry generate-sourcemap.js
+177 silly gunzTarPerm extractEntry IMPLICIT.md
+178 silly gunzTarPerm extractEntry LICENSE
+179 silly gunzTarPerm extractEntry lut.js
+180 silly gunzTarPerm extractEntry ng-annotate-harmony
+181 silly gunzTarPerm extractEntry ng-annotate-main.js
+182 silly gunzTarPerm extractEntry ng-annotate.js
+183 silly gunzTarPerm extractEntry nginject.js
+184 silly gunzTarPerm extractEntry optionals/
+185 silly gunzTarPerm extractEntry OPTIONS.md
+186 silly gunzTarPerm extractEntry package.json
+187 silly gunzTarPerm extractEntry plugin-example.js
+188 silly gunzTarPerm extractEntry pos-to-linecolumn.js
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm extractEntry run-tests.js
+191 silly gunzTarPerm extractEntry scope.js
+192 silly gunzTarPerm extractEntry scopetools.js
+193 silly gunzTarPerm extractEntry tests/
+194 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep/package.json
+195 silly gunzTarPerm extractEntry tests/has_inject.js
+196 silly gunzTarPerm extractEntry tests/has_inject_removed.js
+197 silly gunzTarPerm extractEntry tests/ngmin-tests/
+198 info preinstall lodash.clonedeep@4.5.0
+199 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep/package.json
+200 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep/package.json
+201 silly install resolved []
+202 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+203 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+204 info linkStuff lodash.clonedeep@4.5.0
+205 silly linkStuff lodash.clonedeep@4.5.0 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules as its parent node_modules
+206 silly gunzTarPerm extractEntry tests/optionals/
+207 verbose linkBins lodash.clonedeep@4.5.0
+208 verbose linkMans lodash.clonedeep@4.5.0
+209 verbose rebuildBundles lodash.clonedeep@4.5.0
+210 info install lodash.clonedeep@4.5.0
+211 info postinstall lodash.clonedeep@4.5.0
+212 verbose unlock done using /home/lucas/.npm/_locks/lodash-clonedeep-83d815ee72f6d7c9.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/lodash.clonedeep
+213 silly gunzTarPerm extractEntry tests/original.js
+214 silly gunzTarPerm extractEntry tests/rename.annotated.js
+215 silly gunzTarPerm extractEntry tests/rename.js
+216 silly gunzTarPerm extractEntry tests/sourcemaps.annotated.js
+217 silly gunzTarPerm extractEntry tests/sourcemaps.coffee
+218 silly gunzTarPerm extractEntry tests/todo.js
+219 silly gunzTarPerm extractEntry tests/with_annotations.js
+220 silly gunzTarPerm extractEntry tests/optionals/angular-dashboard-framework.annotated.js
+221 silly gunzTarPerm extractEntry tests/optionals/angular-dashboard-framework.js
+222 silly gunzTarPerm extractEntry tests/ngmin-tests/ngmin-issues.txt
+223 silly gunzTarPerm extractEntry tests/ngmin-tests/ngmin_original.js
+224 silly gunzTarPerm extractEntry tests/ngmin-tests/ngmin_with_annotations.js
+225 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/
+226 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/chain.js
+227 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/directive.js
+228 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/INFO
+229 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/loader.js
+230 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/reference.js
+231 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/route-provider.js
+232 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/simple.js
+233 silly gunzTarPerm extractEntry tests/ngmin-tests/repo/util.js
+234 silly gunzTarPerm extractEntry optionals/angular-dashboard-framework.js
+235 silly gunzTarPerm extractEntry build/es5/
+236 silly gunzTarPerm extractEntry build/es5/generate-sourcemap.js
+237 silly gunzTarPerm extractEntry build/es5/lut.js
+238 silly gunzTarPerm extractEntry build/es5/ng-annotate
+239 silly gunzTarPerm extractEntry build/es5/ng-annotate-main.js
+240 silly gunzTarPerm extractEntry build/es5/ng-annotate.js
+241 silly gunzTarPerm extractEntry build/es5/nginject.js
+242 silly gunzTarPerm extractEntry build/es5/optionals/
+243 silly gunzTarPerm extractEntry build/es5/run-tests.js
+244 silly gunzTarPerm extractEntry build/es5/scope.js
+245 silly gunzTarPerm extractEntry build/es5/scopetools.js
+246 silly gunzTarPerm extractEntry build/es5/tests/
+247 silly gunzTarPerm extractEntry build/es5/tests/has_inject.js
+248 silly gunzTarPerm extractEntry build/es5/tests/has_inject_removed.js
+249 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/
+250 silly gunzTarPerm extractEntry build/es5/tests/optionals/
+251 silly gunzTarPerm extractEntry build/es5/tests/original.js
+252 silly gunzTarPerm extractEntry build/es5/tests/rename.annotated.js
+253 silly gunzTarPerm extractEntry build/es5/tests/rename.js
+254 silly gunzTarPerm extractEntry build/es5/tests/sourcemaps.annotated.js
+255 silly gunzTarPerm extractEntry build/es5/tests/sourcemaps.coffee
+256 silly gunzTarPerm extractEntry build/es5/tests/todo.js
+257 silly gunzTarPerm extractEntry build/es5/tests/with_annotations.js
+258 silly gunzTarPerm extractEntry build/es5/tests/optionals/angular-dashboard-framework.annotated.js
+259 silly gunzTarPerm extractEntry build/es5/tests/optionals/angular-dashboard-framework.js
+260 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/ngmin-issues.txt
+261 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/ngmin_original.js
+262 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/ngmin_with_annotations.js
+263 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/
+264 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/chain.js
+265 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/directive.js
+266 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/INFO
+267 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/loader.js
+268 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/reference.js
+269 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/route-provider.js
+270 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/simple.js
+271 silly gunzTarPerm extractEntry build/es5/tests/ngmin-tests/repo/util.js
+272 silly gunzTarPerm extractEntry build/es5/optionals/angular-dashboard-framework.js
+273 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/package.json
+274 info preinstall ng-annotate@1.2.1
+275 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/package.json
+276 silly prepareForInstallMany adding acorn@~2.6.4 from ng-annotate dependencies
+277 silly prepareForInstallMany adding alter@~0.2.0 from ng-annotate dependencies
+278 silly prepareForInstallMany adding convert-source-map@~1.1.2 from ng-annotate dependencies
+279 silly prepareForInstallMany adding optimist@~0.6.1 from ng-annotate dependencies
+280 silly prepareForInstallMany adding ordered-ast-traverse@~1.1.1 from ng-annotate dependencies
+281 silly prepareForInstallMany adding simple-fmt@~0.1.0 from ng-annotate dependencies
+282 silly prepareForInstallMany adding simple-is@~0.2.0 from ng-annotate dependencies
+283 silly prepareForInstallMany adding source-map@~0.5.3 from ng-annotate dependencies
+284 silly prepareForInstallMany adding stable@~0.1.5 from ng-annotate dependencies
+285 silly prepareForInstallMany adding stringmap@~0.2.2 from ng-annotate dependencies
+286 silly prepareForInstallMany adding stringset@~0.2.1 from ng-annotate dependencies
+287 silly prepareForInstallMany adding tryor@~0.1.2 from ng-annotate dependencies
+288 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/package.json
+289 silly cache add args [ 'convert-source-map@~1.1.2', null ]
+290 verbose cache add spec convert-source-map@~1.1.2
+291 silly cache add parsed spec { raw: 'convert-source-map@~1.1.2',
+291 silly cache add   scope: null,
+291 silly cache add   name: 'convert-source-map',
+291 silly cache add   rawSpec: '~1.1.2',
+291 silly cache add   spec: '>=1.1.2 <1.2.0',
+291 silly cache add   type: 'range' }
+292 silly addNamed convert-source-map@>=1.1.2 <1.2.0
+293 verbose addNamed ">=1.1.2 <1.2.0" is a valid semver range for convert-source-map
+294 silly addNameRange { name: 'convert-source-map',
+294 silly addNameRange   range: '>=1.1.2 <1.2.0',
+294 silly addNameRange   hasData: false }
+295 silly mapToRegistry name convert-source-map
+296 silly mapToRegistry using default registry
+297 silly mapToRegistry registry http://registry.npmjs.org/
+298 silly mapToRegistry uri http://registry.npmjs.org/convert-source-map
+299 verbose addNameRange registry:http://registry.npmjs.org/convert-source-map not in flight; fetching
+300 silly cache add args [ 'optimist@~0.6.1', null ]
+301 verbose cache add spec optimist@~0.6.1
+302 silly cache add parsed spec { raw: 'optimist@~0.6.1',
+302 silly cache add   scope: null,
+302 silly cache add   name: 'optimist',
+302 silly cache add   rawSpec: '~0.6.1',
+302 silly cache add   spec: '>=0.6.1 <0.7.0',
+302 silly cache add   type: 'range' }
+303 silly addNamed optimist@>=0.6.1 <0.7.0
+304 verbose addNamed ">=0.6.1 <0.7.0" is a valid semver range for optimist
+305 silly addNameRange { name: 'optimist', range: '>=0.6.1 <0.7.0', hasData: false }
+306 silly mapToRegistry name optimist
+307 silly mapToRegistry using default registry
+308 silly mapToRegistry registry http://registry.npmjs.org/
+309 silly mapToRegistry uri http://registry.npmjs.org/optimist
+310 verbose addNameRange registry:http://registry.npmjs.org/optimist not in flight; fetching
+311 silly cache add args [ 'ordered-ast-traverse@~1.1.1', null ]
+312 verbose cache add spec ordered-ast-traverse@~1.1.1
+313 silly cache add parsed spec { raw: 'ordered-ast-traverse@~1.1.1',
+313 silly cache add   scope: null,
+313 silly cache add   name: 'ordered-ast-traverse',
+313 silly cache add   rawSpec: '~1.1.1',
+313 silly cache add   spec: '>=1.1.1 <1.2.0',
+313 silly cache add   type: 'range' }
+314 silly addNamed ordered-ast-traverse@>=1.1.1 <1.2.0
+315 verbose addNamed ">=1.1.1 <1.2.0" is a valid semver range for ordered-ast-traverse
+316 silly addNameRange { name: 'ordered-ast-traverse',
+316 silly addNameRange   range: '>=1.1.1 <1.2.0',
+316 silly addNameRange   hasData: false }
+317 silly mapToRegistry name ordered-ast-traverse
+318 silly mapToRegistry using default registry
+319 silly mapToRegistry registry http://registry.npmjs.org/
+320 silly mapToRegistry uri http://registry.npmjs.org/ordered-ast-traverse
+321 verbose addNameRange registry:http://registry.npmjs.org/ordered-ast-traverse not in flight; fetching
+322 silly cache add args [ 'simple-fmt@~0.1.0', null ]
+323 verbose cache add spec simple-fmt@~0.1.0
+324 silly cache add parsed spec { raw: 'simple-fmt@~0.1.0',
+324 silly cache add   scope: null,
+324 silly cache add   name: 'simple-fmt',
+324 silly cache add   rawSpec: '~0.1.0',
+324 silly cache add   spec: '>=0.1.0 <0.2.0',
+324 silly cache add   type: 'range' }
+325 silly addNamed simple-fmt@>=0.1.0 <0.2.0
+326 verbose addNamed ">=0.1.0 <0.2.0" is a valid semver range for simple-fmt
+327 silly addNameRange { name: 'simple-fmt', range: '>=0.1.0 <0.2.0', hasData: false }
+328 silly mapToRegistry name simple-fmt
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry http://registry.npmjs.org/
+331 silly mapToRegistry uri http://registry.npmjs.org/simple-fmt
+332 verbose addNameRange registry:http://registry.npmjs.org/simple-fmt not in flight; fetching
+333 verbose request uri http://registry.npmjs.org/convert-source-map
+334 verbose request no auth needed
+335 info attempt registry request try #1 at 14:55:39
+336 verbose etag "4GL1CFOXPR8BCIYAILI4NMEDV"
+337 http request GET http://registry.npmjs.org/convert-source-map
+338 verbose request uri http://registry.npmjs.org/ordered-ast-traverse
+339 verbose request no auth needed
+340 info attempt registry request try #1 at 14:55:39
+341 verbose etag "3WI4N1P3MDU9ATT8B7FVQ1VDK"
+342 http request GET http://registry.npmjs.org/ordered-ast-traverse
+343 silly cache add args [ 'simple-is@~0.2.0', null ]
+344 verbose cache add spec simple-is@~0.2.0
+345 silly cache add parsed spec { raw: 'simple-is@~0.2.0',
+345 silly cache add   scope: null,
+345 silly cache add   name: 'simple-is',
+345 silly cache add   rawSpec: '~0.2.0',
+345 silly cache add   spec: '>=0.2.0 <0.3.0',
+345 silly cache add   type: 'range' }
+346 silly addNamed simple-is@>=0.2.0 <0.3.0
+347 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for simple-is
+348 silly addNameRange { name: 'simple-is', range: '>=0.2.0 <0.3.0', hasData: false }
+349 silly mapToRegistry name simple-is
+350 silly mapToRegistry using default registry
+351 silly mapToRegistry registry http://registry.npmjs.org/
+352 silly mapToRegistry uri http://registry.npmjs.org/simple-is
+353 verbose addNameRange registry:http://registry.npmjs.org/simple-is not in flight; fetching
+354 silly cache add args [ 'source-map@~0.5.3', null ]
+355 verbose cache add spec source-map@~0.5.3
+356 silly cache add parsed spec { raw: 'source-map@~0.5.3',
+356 silly cache add   scope: null,
+356 silly cache add   name: 'source-map',
+356 silly cache add   rawSpec: '~0.5.3',
+356 silly cache add   spec: '>=0.5.3 <0.6.0',
+356 silly cache add   type: 'range' }
+357 silly addNamed source-map@>=0.5.3 <0.6.0
+358 verbose addNamed ">=0.5.3 <0.6.0" is a valid semver range for source-map
+359 silly addNameRange { name: 'source-map', range: '>=0.5.3 <0.6.0', hasData: false }
+360 silly mapToRegistry name source-map
+361 silly mapToRegistry using default registry
+362 silly mapToRegistry registry http://registry.npmjs.org/
+363 silly mapToRegistry uri http://registry.npmjs.org/source-map
+364 verbose addNameRange registry:http://registry.npmjs.org/source-map not in flight; fetching
+365 silly cache add args [ 'stable@~0.1.5', null ]
+366 verbose cache add spec stable@~0.1.5
+367 silly cache add parsed spec { raw: 'stable@~0.1.5',
+367 silly cache add   scope: null,
+367 silly cache add   name: 'stable',
+367 silly cache add   rawSpec: '~0.1.5',
+367 silly cache add   spec: '>=0.1.5 <0.2.0',
+367 silly cache add   type: 'range' }
+368 silly addNamed stable@>=0.1.5 <0.2.0
+369 verbose addNamed ">=0.1.5 <0.2.0" is a valid semver range for stable
+370 silly addNameRange { name: 'stable', range: '>=0.1.5 <0.2.0', hasData: false }
+371 silly mapToRegistry name stable
+372 silly mapToRegistry using default registry
+373 silly mapToRegistry registry http://registry.npmjs.org/
+374 silly mapToRegistry uri http://registry.npmjs.org/stable
+375 verbose addNameRange registry:http://registry.npmjs.org/stable not in flight; fetching
+376 silly cache add args [ 'stringmap@~0.2.2', null ]
+377 verbose cache add spec stringmap@~0.2.2
+378 silly cache add parsed spec { raw: 'stringmap@~0.2.2',
+378 silly cache add   scope: null,
+378 silly cache add   name: 'stringmap',
+378 silly cache add   rawSpec: '~0.2.2',
+378 silly cache add   spec: '>=0.2.2 <0.3.0',
+378 silly cache add   type: 'range' }
+379 silly addNamed stringmap@>=0.2.2 <0.3.0
+380 verbose addNamed ">=0.2.2 <0.3.0" is a valid semver range for stringmap
+381 silly addNameRange { name: 'stringmap', range: '>=0.2.2 <0.3.0', hasData: false }
+382 silly mapToRegistry name stringmap
+383 silly mapToRegistry using default registry
+384 silly mapToRegistry registry http://registry.npmjs.org/
+385 silly mapToRegistry uri http://registry.npmjs.org/stringmap
+386 verbose addNameRange registry:http://registry.npmjs.org/stringmap not in flight; fetching
+387 silly cache add args [ 'stringset@~0.2.1', null ]
+388 verbose cache add spec stringset@~0.2.1
+389 silly cache add parsed spec { raw: 'stringset@~0.2.1',
+389 silly cache add   scope: null,
+389 silly cache add   name: 'stringset',
+389 silly cache add   rawSpec: '~0.2.1',
+389 silly cache add   spec: '>=0.2.1 <0.3.0',
+389 silly cache add   type: 'range' }
+390 silly addNamed stringset@>=0.2.1 <0.3.0
+391 verbose addNamed ">=0.2.1 <0.3.0" is a valid semver range for stringset
+392 silly addNameRange { name: 'stringset', range: '>=0.2.1 <0.3.0', hasData: false }
+393 silly mapToRegistry name stringset
+394 silly mapToRegistry using default registry
+395 silly mapToRegistry registry http://registry.npmjs.org/
+396 silly mapToRegistry uri http://registry.npmjs.org/stringset
+397 verbose addNameRange registry:http://registry.npmjs.org/stringset not in flight; fetching
+398 silly cache add args [ 'tryor@~0.1.2', null ]
+399 verbose cache add spec tryor@~0.1.2
+400 silly cache add parsed spec { raw: 'tryor@~0.1.2',
+400 silly cache add   scope: null,
+400 silly cache add   name: 'tryor',
+400 silly cache add   rawSpec: '~0.1.2',
+400 silly cache add   spec: '>=0.1.2 <0.2.0',
+400 silly cache add   type: 'range' }
+401 silly addNamed tryor@>=0.1.2 <0.2.0
+402 verbose addNamed ">=0.1.2 <0.2.0" is a valid semver range for tryor
+403 silly addNameRange { name: 'tryor', range: '>=0.1.2 <0.2.0', hasData: false }
+404 silly mapToRegistry name tryor
+405 silly mapToRegistry using default registry
+406 silly mapToRegistry registry http://registry.npmjs.org/
+407 silly mapToRegistry uri http://registry.npmjs.org/tryor
+408 verbose addNameRange registry:http://registry.npmjs.org/tryor not in flight; fetching
+409 silly cache add args [ 'acorn@~2.6.4', null ]
+410 verbose cache add spec acorn@~2.6.4
+411 silly cache add parsed spec { raw: 'acorn@~2.6.4',
+411 silly cache add   scope: null,
+411 silly cache add   name: 'acorn',
+411 silly cache add   rawSpec: '~2.6.4',
+411 silly cache add   spec: '>=2.6.4 <2.7.0',
+411 silly cache add   type: 'range' }
+412 silly addNamed acorn@>=2.6.4 <2.7.0
+413 verbose addNamed ">=2.6.4 <2.7.0" is a valid semver range for acorn
+414 silly addNameRange { name: 'acorn', range: '>=2.6.4 <2.7.0', hasData: false }
+415 silly mapToRegistry name acorn
+416 silly mapToRegistry using default registry
+417 silly mapToRegistry registry http://registry.npmjs.org/
+418 silly mapToRegistry uri http://registry.npmjs.org/acorn
+419 verbose addNameRange registry:http://registry.npmjs.org/acorn not in flight; fetching
+420 silly cache add args [ 'alter@~0.2.0', null ]
+421 verbose cache add spec alter@~0.2.0
+422 silly cache add parsed spec { raw: 'alter@~0.2.0',
+422 silly cache add   scope: null,
+422 silly cache add   name: 'alter',
+422 silly cache add   rawSpec: '~0.2.0',
+422 silly cache add   spec: '>=0.2.0 <0.3.0',
+422 silly cache add   type: 'range' }
+423 silly addNamed alter@>=0.2.0 <0.3.0
+424 verbose addNamed ">=0.2.0 <0.3.0" is a valid semver range for alter
+425 silly addNameRange { name: 'alter', range: '>=0.2.0 <0.3.0', hasData: false }
+426 silly mapToRegistry name alter
+427 silly mapToRegistry using default registry
+428 silly mapToRegistry registry http://registry.npmjs.org/
+429 silly mapToRegistry uri http://registry.npmjs.org/alter
+430 verbose addNameRange registry:http://registry.npmjs.org/alter not in flight; fetching
+431 verbose request uri http://registry.npmjs.org/simple-fmt
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 14:55:39
+434 verbose etag "9BOR0ZL4HXS0ME6YKHEPUBF9P"
+435 http request GET http://registry.npmjs.org/simple-fmt
+436 verbose request uri http://registry.npmjs.org/optimist
+437 verbose request no auth needed
+438 info attempt registry request try #1 at 14:55:39
+439 verbose etag "DA1T18LK575L48O59Y9FAWJIL"
+440 http request GET http://registry.npmjs.org/optimist
+441 verbose request uri http://registry.npmjs.org/simple-is
+442 verbose request no auth needed
+443 info attempt registry request try #1 at 14:55:39
+444 verbose etag "1SMKBZ2W9DXO945UPWOSGHIBR"
+445 http request GET http://registry.npmjs.org/simple-is
+446 verbose request uri http://registry.npmjs.org/stable
+447 verbose request no auth needed
+448 info attempt registry request try #1 at 14:55:39
+449 verbose etag "3TYII12KVNCXICAVZE55FK7SK"
+450 http request GET http://registry.npmjs.org/stable
+451 verbose request uri http://registry.npmjs.org/stringmap
+452 verbose request no auth needed
+453 info attempt registry request try #1 at 14:55:39
+454 verbose etag "99QTKXRGGLLZA5ZRZ7MNS747N"
+455 http request GET http://registry.npmjs.org/stringmap
+456 verbose request uri http://registry.npmjs.org/stringset
+457 verbose request no auth needed
+458 info attempt registry request try #1 at 14:55:39
+459 verbose etag "62DQNOTPJTHN1HZJ9KZU185EP"
+460 http request GET http://registry.npmjs.org/stringset
+461 verbose request uri http://registry.npmjs.org/source-map
+462 verbose request no auth needed
+463 info attempt registry request try #1 at 14:55:39
+464 verbose etag "38NX2KTLFWYBSQOWRILU8P0Z2"
+465 http request GET http://registry.npmjs.org/source-map
+466 verbose request uri http://registry.npmjs.org/tryor
+467 verbose request no auth needed
+468 info attempt registry request try #1 at 14:55:39
+469 verbose etag "9BOPKIK4TCDM9PH8KCM8H98I7"
+470 http request GET http://registry.npmjs.org/tryor
+471 verbose request uri http://registry.npmjs.org/alter
+472 verbose request no auth needed
+473 info attempt registry request try #1 at 14:55:39
+474 verbose etag "9Q87GMKMOVP1Q32UAFHQUR012"
+475 http request GET http://registry.npmjs.org/alter
+476 verbose request uri http://registry.npmjs.org/acorn
+477 verbose request no auth needed
+478 info attempt registry request try #1 at 14:55:39
+479 verbose etag "EHS9O19B5H5U4XIV1PABI3UJQ"
+480 http request GET http://registry.npmjs.org/acorn
+481 http 304 http://registry.npmjs.org/convert-source-map
+482 silly get cb [ 304,
+482 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+482 silly get     via: '1.1 varnish',
+482 silly get     'cache-control': 'max-age=300',
+482 silly get     etag: '"4GL1CFOXPR8BCIYAILI4NMEDV"',
+482 silly get     age: '15',
+482 silly get     connection: 'keep-alive',
+482 silly get     'x-served-by': 'cache-fra1223-FRA',
+482 silly get     'x-cache': 'HIT',
+482 silly get     'x-cache-hits': '2',
+482 silly get     'x-timer': 'S1474048542.573387,VS0,VE0',
+482 silly get     vary: 'Accept-Encoding' } ]
+483 verbose etag http://registry.npmjs.org/convert-source-map from cache
+484 verbose get saving convert-source-map to /home/lucas/.npm/registry.npmjs.org/convert-source-map/.cache.json
+485 http 304 http://registry.npmjs.org/ordered-ast-traverse
+486 silly get cb [ 304,
+486 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+486 silly get     via: '1.1 varnish',
+486 silly get     'cache-control': 'max-age=300',
+486 silly get     etag: '"3WI4N1P3MDU9ATT8B7FVQ1VDK"',
+486 silly get     age: '94',
+486 silly get     connection: 'keep-alive',
+486 silly get     'x-served-by': 'cache-fra1236-FRA',
+486 silly get     'x-cache': 'HIT',
+486 silly get     'x-cache-hits': '2',
+486 silly get     'x-timer': 'S1474048542.577218,VS0,VE0',
+486 silly get     vary: 'Accept-Encoding' } ]
+487 verbose etag http://registry.npmjs.org/ordered-ast-traverse from cache
+488 verbose get saving ordered-ast-traverse to /home/lucas/.npm/registry.npmjs.org/ordered-ast-traverse/.cache.json
+489 silly addNameRange number 2 { name: 'convert-source-map',
+489 silly addNameRange   range: '>=1.1.2 <1.2.0',
+489 silly addNameRange   hasData: true }
+490 silly addNameRange versions [ 'convert-source-map',
+490 silly addNameRange   [ '0.1.0',
+490 silly addNameRange     '0.2.0',
+490 silly addNameRange     '0.2.1',
+490 silly addNameRange     '0.2.2',
+490 silly addNameRange     '0.2.3',
+490 silly addNameRange     '0.2.4',
+490 silly addNameRange     '0.2.5',
+490 silly addNameRange     '0.2.6',
+490 silly addNameRange     '0.3.0',
+490 silly addNameRange     '0.3.1',
+490 silly addNameRange     '0.3.2',
+490 silly addNameRange     '0.3.3',
+490 silly addNameRange     '0.3.4',
+490 silly addNameRange     '0.3.5',
+490 silly addNameRange     '0.4.0',
+490 silly addNameRange     '0.4.1',
+490 silly addNameRange     '0.5.0',
+490 silly addNameRange     '0.5.1',
+490 silly addNameRange     '0.6.0',
+490 silly addNameRange     '0.7.0',
+490 silly addNameRange     '0.7.1',
+490 silly addNameRange     '1.0.0',
+490 silly addNameRange     '1.1.0',
+490 silly addNameRange     '1.1.1',
+490 silly addNameRange     '1.1.2',
+490 silly addNameRange     '1.1.3',
+490 silly addNameRange     '1.2.0',
+490 silly addNameRange     '1.3.0' ] ]
+491 silly addNamed convert-source-map@1.1.3
+492 verbose addNamed "1.1.3" is a plain semver version for convert-source-map
+493 silly cache afterAdd convert-source-map@1.1.3
+494 verbose afterAdd /home/lucas/.npm/convert-source-map/1.1.3/package/package.json not in flight; writing
+495 silly addNameRange number 2 { name: 'ordered-ast-traverse',
+495 silly addNameRange   range: '>=1.1.1 <1.2.0',
+495 silly addNameRange   hasData: true }
+496 silly addNameRange versions [ 'ordered-ast-traverse',
+496 silly addNameRange   [ '0.1.0', '0.1.1', '1.0.0', '1.1.0', '1.1.1' ] ]
+497 silly addNamed ordered-ast-traverse@1.1.1
+498 verbose addNamed "1.1.1" is a plain semver version for ordered-ast-traverse
+499 verbose afterAdd /home/lucas/.npm/convert-source-map/1.1.3/package/package.json written
+500 silly cache afterAdd ordered-ast-traverse@1.1.1
+501 verbose afterAdd /home/lucas/.npm/ordered-ast-traverse/1.1.1/package/package.json not in flight; writing
+502 verbose afterAdd /home/lucas/.npm/ordered-ast-traverse/1.1.1/package/package.json written
+503 http 304 http://registry.npmjs.org/optimist
+504 silly get cb [ 304,
+504 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+504 silly get     via: '1.1 varnish',
+504 silly get     'cache-control': 'max-age=300',
+504 silly get     etag: '"DA1T18LK575L48O59Y9FAWJIL"',
+504 silly get     age: '47',
+504 silly get     connection: 'keep-alive',
+504 silly get     'x-served-by': 'cache-fra1221-FRA',
+504 silly get     'x-cache': 'HIT',
+504 silly get     'x-cache-hits': '2',
+504 silly get     'x-timer': 'S1474048542.673568,VS0,VE0',
+504 silly get     vary: 'Accept-Encoding' } ]
+505 verbose etag http://registry.npmjs.org/optimist from cache
+506 verbose get saving optimist to /home/lucas/.npm/registry.npmjs.org/optimist/.cache.json
+507 silly addNameRange number 2 { name: 'optimist', range: '>=0.6.1 <0.7.0', hasData: true }
+508 silly addNameRange versions [ 'optimist',
+508 silly addNameRange   [ '0.0.1',
+508 silly addNameRange     '0.0.2',
+508 silly addNameRange     '0.0.4',
+508 silly addNameRange     '0.0.5',
+508 silly addNameRange     '0.0.6',
+508 silly addNameRange     '0.0.7',
+508 silly addNameRange     '0.1.0',
+508 silly addNameRange     '0.1.1',
+508 silly addNameRange     '0.1.2',
+508 silly addNameRange     '0.1.3',
+508 silly addNameRange     '0.1.4',
+508 silly addNameRange     '0.1.5',
+508 silly addNameRange     '0.1.6',
+508 silly addNameRange     '0.1.7',
+508 silly addNameRange     '0.1.8',
+508 silly addNameRange     '0.1.9',
+508 silly addNameRange     '0.0.3',
+508 silly addNameRange     '0.2.0',
+508 silly addNameRange     '0.2.1',
+508 silly addNameRange     '0.2.2',
+508 silly addNameRange     '0.2.3',
+508 silly addNameRange     '0.2.4',
+508 silly addNameRange     '0.2.5',
+508 silly addNameRange     '0.2.6',
+508 silly addNameRange     '0.2.7',
+508 silly addNameRange     '0.2.8',
+508 silly addNameRange     '0.3.0',
+508 silly addNameRange     '0.3.1',
+508 silly addNameRange     '0.3.3',
+508 silly addNameRange     '0.3.4',
+508 silly addNameRange     '0.3.5',
+508 silly addNameRange     '0.3.6',
+508 silly addNameRange     '0.3.7',
+508 silly addNameRange     '0.4.0',
+508 silly addNameRange     '0.5.0',
+508 silly addNameRange     '0.5.1',
+508 silly addNameRange     '0.5.2',
+508 silly addNameRange     '0.6.0',
+508 silly addNameRange     '0.6.1' ] ]
+509 silly addNamed optimist@0.6.1
+510 verbose addNamed "0.6.1" is a plain semver version for optimist
+511 http 304 http://registry.npmjs.org/simple-is
+512 silly get cb [ 304,
+512 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+512 silly get     via: '1.1 varnish',
+512 silly get     'cache-control': 'max-age=300',
+512 silly get     etag: '"1SMKBZ2W9DXO945UPWOSGHIBR"',
+512 silly get     age: '238',
+512 silly get     connection: 'keep-alive',
+512 silly get     'x-served-by': 'cache-fra1247-FRA',
+512 silly get     'x-cache': 'HIT',
+512 silly get     'x-cache-hits': '1',
+512 silly get     'x-timer': 'S1474048542.681567,VS0,VE0',
+512 silly get     vary: 'Accept-Encoding' } ]
+513 verbose etag http://registry.npmjs.org/simple-is from cache
+514 verbose get saving simple-is to /home/lucas/.npm/registry.npmjs.org/simple-is/.cache.json
+515 silly cache afterAdd optimist@0.6.1
+516 verbose afterAdd /home/lucas/.npm/optimist/0.6.1/package/package.json not in flight; writing
+517 silly addNameRange number 2 { name: 'simple-is', range: '>=0.2.0 <0.3.0', hasData: true }
+518 silly addNameRange versions [ 'simple-is', [ '0.1.0', '0.2.0' ] ]
+519 silly addNamed simple-is@0.2.0
+520 verbose addNamed "0.2.0" is a plain semver version for simple-is
+521 verbose afterAdd /home/lucas/.npm/optimist/0.6.1/package/package.json written
+522 silly cache afterAdd simple-is@0.2.0
+523 verbose afterAdd /home/lucas/.npm/simple-is/0.2.0/package/package.json not in flight; writing
+524 http 304 http://registry.npmjs.org/stable
+525 silly get cb [ 304,
+525 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+525 silly get     via: '1.1 varnish',
+525 silly get     'cache-control': 'max-age=300',
+525 silly get     etag: '"3TYII12KVNCXICAVZE55FK7SK"',
+525 silly get     age: '278',
+525 silly get     connection: 'keep-alive',
+525 silly get     'x-served-by': 'cache-fra1232-FRA',
+525 silly get     'x-cache': 'HIT',
+525 silly get     'x-cache-hits': '3',
+525 silly get     'x-timer': 'S1474048542.692819,VS0,VE0',
+525 silly get     vary: 'Accept-Encoding' } ]
+526 verbose etag http://registry.npmjs.org/stable from cache
+527 verbose get saving stable to /home/lucas/.npm/registry.npmjs.org/stable/.cache.json
+528 verbose afterAdd /home/lucas/.npm/simple-is/0.2.0/package/package.json written
+529 silly addNameRange number 2 { name: 'stable', range: '>=0.1.5 <0.2.0', hasData: true }
+530 silly addNameRange versions [ 'stable',
+530 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5' ] ]
+531 silly addNamed stable@0.1.5
+532 verbose addNamed "0.1.5" is a plain semver version for stable
+533 silly cache afterAdd stable@0.1.5
+534 verbose afterAdd /home/lucas/.npm/stable/0.1.5/package/package.json not in flight; writing
+535 verbose afterAdd /home/lucas/.npm/stable/0.1.5/package/package.json written
+536 http 304 http://registry.npmjs.org/stringset
+537 silly get cb [ 304,
+537 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+537 silly get     via: '1.1 varnish',
+537 silly get     'cache-control': 'max-age=300',
+537 silly get     etag: '"62DQNOTPJTHN1HZJ9KZU185EP"',
+537 silly get     age: '238',
+537 silly get     connection: 'keep-alive',
+537 silly get     'x-served-by': 'cache-fra1244-FRA',
+537 silly get     'x-cache': 'HIT',
+537 silly get     'x-cache-hits': '2',
+537 silly get     'x-timer': 'S1474048542.698511,VS0,VE0',
+537 silly get     vary: 'Accept-Encoding' } ]
+538 verbose etag http://registry.npmjs.org/stringset from cache
+539 verbose get saving stringset to /home/lucas/.npm/registry.npmjs.org/stringset/.cache.json
+540 silly addNameRange number 2 { name: 'stringset', range: '>=0.2.1 <0.3.0', hasData: true }
+541 silly addNameRange versions [ 'stringset', [ '0.1.0', '0.2.0', '0.2.1' ] ]
+542 silly addNamed stringset@0.2.1
+543 verbose addNamed "0.2.1" is a plain semver version for stringset
+544 silly cache afterAdd stringset@0.2.1
+545 verbose afterAdd /home/lucas/.npm/stringset/0.2.1/package/package.json not in flight; writing
+546 verbose afterAdd /home/lucas/.npm/stringset/0.2.1/package/package.json written
+547 http 304 http://registry.npmjs.org/tryor
+548 silly get cb [ 304,
+548 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+548 silly get     via: '1.1 varnish',
+548 silly get     'cache-control': 'max-age=300',
+548 silly get     etag: '"9BOPKIK4TCDM9PH8KCM8H98I7"',
+548 silly get     age: '238',
+548 silly get     connection: 'keep-alive',
+548 silly get     'x-served-by': 'cache-fra1235-FRA',
+548 silly get     'x-cache': 'HIT',
+548 silly get     'x-cache-hits': '2',
+548 silly get     'x-timer': 'S1474048542.700885,VS0,VE0',
+548 silly get     vary: 'Accept-Encoding' } ]
+549 verbose etag http://registry.npmjs.org/tryor from cache
+550 verbose get saving tryor to /home/lucas/.npm/registry.npmjs.org/tryor/.cache.json
+551 silly addNameRange number 2 { name: 'tryor', range: '>=0.1.2 <0.2.0', hasData: true }
+552 silly addNameRange versions [ 'tryor', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+553 silly addNamed tryor@0.1.2
+554 verbose addNamed "0.1.2" is a plain semver version for tryor
+555 silly cache afterAdd tryor@0.1.2
+556 verbose afterAdd /home/lucas/.npm/tryor/0.1.2/package/package.json not in flight; writing
+557 http 304 http://registry.npmjs.org/stringmap
+558 silly get cb [ 304,
+558 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+558 silly get     via: '1.1 varnish',
+558 silly get     'cache-control': 'max-age=300',
+558 silly get     etag: '"99QTKXRGGLLZA5ZRZ7MNS747N"',
+558 silly get     age: '239',
+558 silly get     connection: 'keep-alive',
+558 silly get     'x-served-by': 'cache-fra1239-FRA',
+558 silly get     'x-cache': 'HIT',
+558 silly get     'x-cache-hits': '2',
+558 silly get     'x-timer': 'S1474048542.697782,VS0,VE0',
+558 silly get     vary: 'Accept-Encoding' } ]
+559 verbose etag http://registry.npmjs.org/stringmap from cache
+560 verbose get saving stringmap to /home/lucas/.npm/registry.npmjs.org/stringmap/.cache.json
+561 http 304 http://registry.npmjs.org/source-map
+562 silly get cb [ 304,
+562 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+562 silly get     via: '1.1 varnish',
+562 silly get     'cache-control': 'max-age=300',
+562 silly get     etag: '"38NX2KTLFWYBSQOWRILU8P0Z2"',
+562 silly get     age: '268',
+562 silly get     connection: 'keep-alive',
+562 silly get     'x-served-by': 'cache-fra1228-FRA',
+562 silly get     'x-cache': 'HIT',
+562 silly get     'x-cache-hits': '15',
+562 silly get     'x-timer': 'S1474048542.697681,VS0,VE0',
+562 silly get     vary: 'Accept-Encoding' } ]
+563 verbose etag http://registry.npmjs.org/source-map from cache
+564 verbose get saving source-map to /home/lucas/.npm/registry.npmjs.org/source-map/.cache.json
+565 http 304 http://registry.npmjs.org/acorn
+566 silly get cb [ 304,
+566 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+566 silly get     via: '1.1 varnish',
+566 silly get     'cache-control': 'max-age=300',
+566 silly get     etag: '"EHS9O19B5H5U4XIV1PABI3UJQ"',
+566 silly get     age: '55',
+566 silly get     connection: 'keep-alive',
+566 silly get     'x-served-by': 'cache-fra1247-FRA',
+566 silly get     'x-cache': 'HIT',
+566 silly get     'x-cache-hits': '3',
+566 silly get     'x-timer': 'S1474048542.707739,VS0,VE0',
+566 silly get     vary: 'Accept-Encoding' } ]
+567 verbose etag http://registry.npmjs.org/acorn from cache
+568 verbose get saving acorn to /home/lucas/.npm/registry.npmjs.org/acorn/.cache.json
+569 verbose afterAdd /home/lucas/.npm/tryor/0.1.2/package/package.json written
+570 silly addNameRange number 2 { name: 'stringmap', range: '>=0.2.2 <0.3.0', hasData: true }
+571 silly addNameRange versions [ 'stringmap', [ '0.1.0', '0.1.1', '0.2.0', '0.2.1', '0.2.2' ] ]
+572 silly addNamed stringmap@0.2.2
+573 verbose addNamed "0.2.2" is a plain semver version for stringmap
+574 http 304 http://registry.npmjs.org/alter
+575 silly get cb [ 304,
+575 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+575 silly get     via: '1.1 varnish',
+575 silly get     'cache-control': 'max-age=300',
+575 silly get     etag: '"9Q87GMKMOVP1Q32UAFHQUR012"',
+575 silly get     age: '239',
+575 silly get     connection: 'keep-alive',
+575 silly get     'x-served-by': 'cache-fra1229-FRA',
+575 silly get     'x-cache': 'HIT',
+575 silly get     'x-cache-hits': '1',
+575 silly get     'x-timer': 'S1474048542.712171,VS0,VE0',
+575 silly get     vary: 'Accept-Encoding' } ]
+576 verbose etag http://registry.npmjs.org/alter from cache
+577 verbose get saving alter to /home/lucas/.npm/registry.npmjs.org/alter/.cache.json
+578 silly addNameRange number 2 { name: 'source-map', range: '>=0.5.3 <0.6.0', hasData: true }
+579 silly addNameRange versions [ 'source-map',
+579 silly addNameRange   [ '0.0.0',
+579 silly addNameRange     '0.1.0',
+579 silly addNameRange     '0.1.1',
+579 silly addNameRange     '0.1.2',
+579 silly addNameRange     '0.1.3',
+579 silly addNameRange     '0.1.4',
+579 silly addNameRange     '0.1.5',
+579 silly addNameRange     '0.1.6',
+579 silly addNameRange     '0.1.7',
+579 silly addNameRange     '0.1.8',
+579 silly addNameRange     '0.1.9',
+579 silly addNameRange     '0.1.10',
+579 silly addNameRange     '0.1.11',
+579 silly addNameRange     '0.1.12',
+579 silly addNameRange     '0.1.13',
+579 silly addNameRange     '0.1.14',
+579 silly addNameRange     '0.1.15',
+579 silly addNameRange     '0.1.16',
+579 silly addNameRange     '0.1.17',
+579 silly addNameRange     '0.1.18',
+579 silly addNameRange     '0.1.19',
+579 silly addNameRange     '0.1.20',
+579 silly addNameRange     '0.1.21',
+579 silly addNameRange     '0.1.22',
+579 silly addNameRange     '0.1.23',
+579 silly addNameRange     '0.1.24',
+579 silly addNameRange     '0.1.25',
+579 silly addNameRange     '0.1.26',
+579 silly addNameRange     '0.1.27',
+579 silly addNameRange     '0.1.28',
+579 silly addNameRange     '0.1.29',
+579 silly addNameRange     '0.1.30',
+579 silly addNameRange     '0.1.31',
+579 silly addNameRange     '0.1.32',
+579 silly addNameRange     '0.1.33',
+579 silly addNameRange     '0.1.34',
+579 silly addNameRange     '0.1.35',
+579 silly addNameRange     '0.1.36',
+579 silly addNameRange     '0.1.37',
+579 silly addNameRange     '0.1.38',
+579 silly addNameRange     '0.1.39',
+579 silly addNameRange     '0.1.40',
+579 silly addNameRange     '0.1.41',
+579 silly addNameRange     '0.1.42',
+579 silly addNameRange     '0.1.43',
+579 silly addNameRange     '0.2.0',
+579 silly addNameRange     '0.3.0',
+579 silly addNameRange     '0.4.0',
+579 silly addNameRange     '0.4.1',
+579 silly addNameRange     '0.4.2',
+579 silly addNameRange     '0.4.3',
+579 silly addNameRange     '0.4.4',
+579 silly addNameRange     '0.5.0',
+579 silly addNameRange     '0.5.1',
+579 silly addNameRange     '0.5.2',
+579 silly addNameRange     '0.5.3',
+579 silly addNameRange     '0.5.4',
+579 silly addNameRange     '0.5.5',
+579 silly addNameRange     '0.5.6' ] ]
+580 silly addNamed source-map@0.5.6
+581 verbose addNamed "0.5.6" is a plain semver version for source-map
+582 silly addNameRange number 2 { name: 'acorn', range: '>=2.6.4 <2.7.0', hasData: true }
+583 silly addNameRange versions [ 'acorn',
+583 silly addNameRange   [ '0.0.1',
+583 silly addNameRange     '0.1.0',
+583 silly addNameRange     '0.2.0',
+583 silly addNameRange     '0.3.0',
+583 silly addNameRange     '0.3.1',
+583 silly addNameRange     '0.4.0',
+583 silly addNameRange     '0.4.2',
+583 silly addNameRange     '0.5.0',
+583 silly addNameRange     '0.6.0',
+583 silly addNameRange     '0.7.0',
+583 silly addNameRange     '0.8.0',
+583 silly addNameRange     '0.9.0',
+583 silly addNameRange     '0.10.0',
+583 silly addNameRange     '0.11.0',
+583 silly addNameRange     '0.12.0',
+583 silly addNameRange     '1.0.0',
+583 silly addNameRange     '1.0.1',
+583 silly addNameRange     '1.0.3',
+583 silly addNameRange     '1.1.0',
+583 silly addNameRange     '1.2.0',
+583 silly addNameRange     '2.0.0',
+583 silly addNameRange     '1.2.1',
+583 silly addNameRange     '2.0.1',
+583 silly addNameRange     '1.2.2',
+583 silly addNameRange     '2.0.4',
+583 silly addNameRange     '2.1.0',
+583 silly addNameRange     '2.2.0',
+583 silly addNameRange     '2.3.0',
+583 silly addNameRange     '2.4.0',
+583 silly addNameRange     '2.5.0',
+583 silly addNameRange     '2.5.2',
+583 silly addNameRange     '2.6.0',
+583 silly addNameRange     '2.6.2',
+583 silly addNameRange     '2.6.4',
+583 silly addNameRange     '2.7.0',
+583 silly addNameRange     '3.0.0',
+583 silly addNameRange     '3.0.2',
+583 silly addNameRange     '3.0.4',
+583 silly addNameRange     '3.1.0',
+583 silly addNameRange     '3.2.0',
+583 silly addNameRange     '3.3.0',
+583 silly addNameRange     '4.0.0',
+583 silly addNameRange     '4.0.1',
+583 silly addNameRange     '4.0.2',
+583 silly addNameRange     '4.0.3' ] ]
+584 silly addNamed acorn@2.6.4
+585 verbose addNamed "2.6.4" is a plain semver version for acorn
+586 http 304 http://registry.npmjs.org/simple-fmt
+587 silly get cb [ 304,
+587 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+587 silly get     via: '1.1 varnish',
+587 silly get     'cache-control': 'max-age=300',
+587 silly get     etag: '"9BOR0ZL4HXS0ME6YKHEPUBF9P"',
+587 silly get     age: '220',
+587 silly get     connection: 'keep-alive',
+587 silly get     'x-served-by': 'cache-fra1239-FRA',
+587 silly get     'x-cache': 'HIT',
+587 silly get     'x-cache-hits': '1',
+587 silly get     'x-timer': 'S1474048542.694113,VS0,VE0',
+587 silly get     vary: 'Accept-Encoding' } ]
+588 verbose etag http://registry.npmjs.org/simple-fmt from cache
+589 verbose get saving simple-fmt to /home/lucas/.npm/registry.npmjs.org/simple-fmt/.cache.json
+590 silly cache afterAdd stringmap@0.2.2
+591 verbose afterAdd /home/lucas/.npm/stringmap/0.2.2/package/package.json not in flight; writing
+592 silly cache afterAdd source-map@0.5.6
+593 verbose afterAdd /home/lucas/.npm/source-map/0.5.6/package/package.json not in flight; writing
+594 silly addNameRange number 2 { name: 'alter', range: '>=0.2.0 <0.3.0', hasData: true }
+595 silly addNameRange versions [ 'alter', [ '0.1.0', '0.1.1', '0.2.0' ] ]
+596 silly addNamed alter@0.2.0
+597 verbose addNamed "0.2.0" is a plain semver version for alter
+598 silly cache afterAdd acorn@2.6.4
+599 verbose afterAdd /home/lucas/.npm/acorn/2.6.4/package/package.json not in flight; writing
+600 verbose afterAdd /home/lucas/.npm/stringmap/0.2.2/package/package.json written
+601 verbose afterAdd /home/lucas/.npm/source-map/0.5.6/package/package.json written
+602 silly addNameRange number 2 { name: 'simple-fmt', range: '>=0.1.0 <0.2.0', hasData: true }
+603 silly addNameRange versions [ 'simple-fmt', [ '0.1.0' ] ]
+604 silly addNamed simple-fmt@0.1.0
+605 verbose addNamed "0.1.0" is a plain semver version for simple-fmt
+606 verbose afterAdd /home/lucas/.npm/acorn/2.6.4/package/package.json written
+607 silly cache afterAdd alter@0.2.0
+608 verbose afterAdd /home/lucas/.npm/alter/0.2.0/package/package.json not in flight; writing
+609 silly cache afterAdd simple-fmt@0.1.0
+610 verbose afterAdd /home/lucas/.npm/simple-fmt/0.1.0/package/package.json not in flight; writing
+611 verbose afterAdd /home/lucas/.npm/alter/0.2.0/package/package.json written
+612 verbose afterAdd /home/lucas/.npm/simple-fmt/0.1.0/package/package.json written
+613 silly install resolved [ { name: 'convert-source-map',
+613 silly install resolved     version: '1.1.3',
+613 silly install resolved     description: 'Converts a source-map from/to  different formats and allows adding/changing properties.',
+613 silly install resolved     main: 'index.js',
+613 silly install resolved     scripts: { test: 'tap test/*.js' },
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git://github.com/thlorenz/convert-source-map.git' },
+613 silly install resolved     homepage: 'https://github.com/thlorenz/convert-source-map',
+613 silly install resolved     dependencies: {},
+613 silly install resolved     devDependencies: { 'inline-source-map': '~0.3.1', tap: '~0.4.13' },
+613 silly install resolved     keywords: [ 'convert', 'sourcemap', 'source', 'map', 'browser', 'debug' ],
+613 silly install resolved     author:
+613 silly install resolved      { name: 'Thorsten Lorenz',
+613 silly install resolved        email: 'thlorenz@gmx.de',
+613 silly install resolved        url: 'http://thlorenz.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     engine: { node: '>=0.6' },
+613 silly install resolved     gitHead: '5b208c76f8fd0aaa6dcaeeb07abc83187cf513f5',
+613 silly install resolved     bugs: { url: 'https://github.com/thlorenz/convert-source-map/issues' },
+613 silly install resolved     _id: 'convert-source-map@1.1.3',
+613 silly install resolved     _shasum: '4829c877e9fe49b3161f3bf3673888e204699860',
+613 silly install resolved     _from: 'convert-source-map@>=1.1.2 <1.2.0',
+613 silly install resolved     _npmVersion: '2.14.15',
+613 silly install resolved     _nodeVersion: '4.2.4',
+613 silly install resolved     _npmUser: { name: 'thlorenz', email: 'thlorenz@gmx.de' },
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '4829c877e9fe49b3161f3bf3673888e204699860',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/convert-source-map/-/convert-source-map-1.1.3.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'ordered-ast-traverse',
+613 silly install resolved     version: '1.1.1',
+613 silly install resolved     description: 'simple but flexible lexically ordered AST traversal with pre and post visitors',
+613 silly install resolved     main: 'ordered-ast-traverse.js',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/olov/ordered-ast-traverse.git' },
+613 silly install resolved     dependencies: { 'ordered-esprima-props': '~1.1.0' },
+613 silly install resolved     keywords:
+613 silly install resolved      [ 'ast',
+613 silly install resolved        'traverse',
+613 silly install resolved        'traversal',
+613 silly install resolved        'walk',
+613 silly install resolved        'visit',
+613 silly install resolved        'visitor',
+613 silly install resolved        'acorn',
+613 silly install resolved        'esprima' ],
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/ordered-ast-traverse/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/ordered-ast-traverse',
+613 silly install resolved     _id: 'ordered-ast-traverse@1.1.1',
+613 silly install resolved     _shasum: '6843a170bc0eee8b520cc8ddc1ddd3aa30fa057c',
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/ordered-ast-traverse/-/ordered-ast-traverse-1.1.1.tgz',
+613 silly install resolved     _from: 'ordered-ast-traverse@>=1.1.1 <1.2.0',
+613 silly install resolved     scripts: {},
+613 silly install resolved     _npmVersion: '2.0.0',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '6843a170bc0eee8b520cc8ddc1ddd3aa30fa057c',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/ordered-ast-traverse/-/ordered-ast-traverse-1.1.1.tgz' },
+613 silly install resolved     directories: {},
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'optimist',
+613 silly install resolved     version: '0.6.1',
+613 silly install resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+613 silly install resolved     main: './index.js',
+613 silly install resolved     dependencies: { wordwrap: '~0.0.2', minimist: '~0.0.1' },
+613 silly install resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+613 silly install resolved     scripts: { test: 'tap ./test/*.js' },
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+ssh://git@github.com/substack/node-optimist.git' },
+613 silly install resolved     keywords:
+613 silly install resolved      [ 'argument',
+613 silly install resolved        'args',
+613 silly install resolved        'option',
+613 silly install resolved        'parser',
+613 silly install resolved        'parsing',
+613 silly install resolved        'cli',
+613 silly install resolved        'command' ],
+613 silly install resolved     author:
+613 silly install resolved      { name: 'James Halliday',
+613 silly install resolved        email: 'mail@substack.net',
+613 silly install resolved        url: 'http://substack.net' },
+613 silly install resolved     license: 'MIT/X11',
+613 silly install resolved     engine: { node: '>=0.4' },
+613 silly install resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+613 silly install resolved     homepage: 'https://github.com/substack/node-optimist',
+613 silly install resolved     _id: 'optimist@0.6.1',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: 'da3ea74686fa21a19a111c326e90eb15a0196686',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz' },
+613 silly install resolved     _from: 'optimist@>=0.6.1 <0.7.0',
+613 silly install resolved     _npmVersion: '1.3.21',
+613 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: 'da3ea74686fa21a19a111c326e90eb15a0196686',
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'simple-is',
+613 silly install resolved     version: '0.2.0',
+613 silly install resolved     description: 'maximally minimal type-testing library',
+613 silly install resolved     main: 'simple-is.js',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/olov/simple-is.git' },
+613 silly install resolved     keywords: [ 'is', 'type', 'test', 'check', 'assert' ],
+613 silly install resolved     scripts: { test: 'tap test/*.js' },
+613 silly install resolved     devDependencies: { tap: '~0.4.0' },
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     readme: '# simple-is.js\nA maximally minimal type-testing library. Use it to make your code\nmore readable. Works in node and browsers.\n\n\n\n## Usage\n`var is = require("simple-is");`\n\nUse `is.number(x)` instead of `typeof x === "number"` (also `is.boolean`, `is.string`, `is.fn`).\n\nUse `is.nan(x)` instead of `typeof x === "number" && isNaN(x)`, `x !== x` or ES6 `Number.isNaN(x)`.\n\nUse `is.object(x)` instead of `x !== null && typeof x === "object"`.\n\nUse `is.primitive(x)` instead of `x === null || x === undefined || typeof x === "boolean" || typeof x === "number" || typeof x === "string"` (verbose on purpose).\n\nUse `is.array(x)` instead of ES5 `Array.isArray`.\n\nUse `is.finitenumber(x)` instead of `typeof x === "number" && isFinite(x)` or ES6 `Number.isFinite(x)`.\n\nUse `is.someof(x, ["first", 2, obj])` instead of (usually) `x === "first" || x === 2 || x === obj` or (alternatively)  `["first", 2, obj].indexOf(x) >= 0`. Great for reducing copy and paste mistake in `if`-conditions and for making them more readable.\n\nUse `is.noneof(x, ["first", 2, obj])` instead of (usually) `x !== "first" && x !== 2 && x !== obj` or (alternatively)  `["first", 2, obj].indexOf(x) === -1`.\n\nUse `is.own(x, "name")` instead of `Object.prototype.hasOwnProperty.call(x, "name")`.\n\nThat\'s it.\n\n\n\n## Installation\n\n### Node\nInstall using npm\n\n    npm install simple-is\n\n```javascript\nvar is = require("simple-is");\n```\n\n### Browser\nClone the repo and include it in a script tag\n\n    git clone https://github.com/olov/simple-is.git\n\n```html\n<script src="simple-is/simple-is.js"></script>\n```\n',
+613 silly install resolved     readmeFilename: 'README.md',
+613 silly install resolved     _id: 'simple-is@0.2.0',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '2abb75aade39deb5cc815ce10e6191164850baf0',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/simple-is/-/simple-is-0.2.0.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/simple-is/-/simple-is-0.2.0.tgz',
+613 silly install resolved     _from: 'simple-is@>=0.2.0 <0.3.0',
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: '2abb75aade39deb5cc815ce10e6191164850baf0',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/simple-is/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/simple-is#readme' },
+613 silly install resolved   { name: 'stable',
+613 silly install resolved     version: '0.1.5',
+613 silly install resolved     keywords: [ 'stable', 'array', 'sort' ],
+613 silly install resolved     description: 'A stable array sort for JavaScript',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/Two-Screen/stable.git' },
+613 silly install resolved     main: './stable.js',
+613 silly install resolved     devDependencies: { tape: '2', 'uglify-js': '2' },
+613 silly install resolved     scripts:
+613 silly install resolved      { test: 'node ./test.js',
+613 silly install resolved        minify: 'uglifyjs --comments \'/^!/\' -c -m -o ./stable.min.js ./stable.js' },
+613 silly install resolved     testling: { files: './test.js', browsers: [Object] },
+613 silly install resolved     author: { name: 'Angry Bytes', email: 'info@angrybytes.com' },
+613 silly install resolved     contributors: [ [Object], [Object], [Object] ],
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     bugs: { url: 'https://github.com/Two-Screen/stable/issues' },
+613 silly install resolved     homepage: 'https://github.com/Two-Screen/stable',
+613 silly install resolved     _id: 'stable@0.1.5',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '08232f60c732e9890784b5bed0734f8b32a887b9',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/stable/-/stable-0.1.5.tgz' },
+613 silly install resolved     _from: 'stable@>=0.1.5 <0.2.0',
+613 silly install resolved     _npmVersion: '1.3.26',
+613 silly install resolved     _npmUser: { name: 'stephank', email: 'stephan@kochen.nl' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: '08232f60c732e9890784b5bed0734f8b32a887b9',
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/stable/-/stable-0.1.5.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'stringset',
+613 silly install resolved     version: '0.2.1',
+613 silly install resolved     description: 'fast and robust stringset',
+613 silly install resolved     main: 'stringset.js',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/olov/stringset.git' },
+613 silly install resolved     keywords: [ 'stringset', 'set', '__proto__' ],
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     readme: '# stringset.js\nA fast and robust stringset implementation that can hold any string items,\nincluding `__proto__`, with minimal overhead compared to a plain object.\nWorks in node and browsers.\n\nThe API is created to be as close to the ES6 Set API as possible. Prefer\n`ss.remove("key")` for deleting a key. ES6 Set uses `set.delete("key")`\ninstead and for that reason `ss[\'delete\']("key")` is available as a\nstringset alias as well. Never do `ss.delete("key")` unless you\'re\ncertain to be in the land of ES5 or later.\n\n\n\n## Examples\nAvailable in `examples.js`\n\n```javascript\nvar StringSet = require("stringset");\n\nvar ss1 = new StringSet();\nss1.add("greeting");\nss1.add("check");\nss1.add("__proto__");\nconsole.log(ss1.has("greeting")); // true\nconsole.log(ss1.has("__proto__")); // true\nss1.remove("greeting");\nconsole.log(ss1.items()); // [ \'check\', \'__proto__\' ]\nconsole.log(ss1.toString()); // {"check","__proto__"}\n\nvar ss2 = new StringSet(["one", "two"]);\nconsole.log(ss2.isEmpty()); // false\nconsole.log(ss2.size()); // 2\n\nvar ss3 = ss1.clone();\nss3.merge(ss2);\nss3.addMany(["a", "b"]);\nconsole.log(ss3.toString()); // {"check","one","two","a","b","__proto__"}\n```\n\n\n\n## Installation\n\n### Node\nInstall using npm\n\n    npm install stringset\n\n```javascript\nvar StringSet = require("stringset");\n```\n\n### Browser\nClone the repo and include it in a script tag\n\n    git clone https://github.com/olov/stringset.git\n\n```html\n<script src="stringset/stringset.js"></script>\n```\n',
+613 silly install resolved     readmeFilename: 'README.md',
+613 silly install resolved     _id: 'stringset@0.2.1',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: 'ef259c4e349344377fcd1c913dd2e848c9c042b5',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/stringset/-/stringset-0.2.1.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/stringset/-/stringset-0.2.1.tgz',
+613 silly install resolved     _from: 'stringset@>=0.2.1 <0.3.0',
+613 silly install resolved     scripts: {},
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: 'ef259c4e349344377fcd1c913dd2e848c9c042b5',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/stringset/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/stringset#readme' },
+613 silly install resolved   { name: 'tryor',
+613 silly install resolved     version: '0.1.2',
+613 silly install resolved     description: 'return fn() or default value (in case of exception)',
+613 silly install resolved     main: 'tryor.js',
+613 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/olov/tryor.git' },
+613 silly install resolved     keywords: [ 'try', 'catch', 'default' ],
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     readme: '# tryor.js\nGive it a function and a default value. `tryor` will give you back the return value of\nthe function or, in case the function threw an exception, the default value.\nWorks in node and browsers.\n\n\n\n## Usage\n```javascript\n    // do this\n    var config = tryor(function() {\n        return JSON.parse(userProvidedConfigString);\n    }, {});\n\n    // instead of\n    var config; // or var config = {}; and empty catch\n    try {\n        config = JSON.parse(userProvidedConfigString);\n    } catch (e) {\n        config = {};\n    }\n```\n\nWorks extra well with ES6-style `const` variables.\n\n\n\n## Installation\n\n### Node\nInstall using npm\n\n    npm install tryor\n\n```javascript\nvar tryor = require("tryor");\n```\n\n### Browser\nClone the repo and include it in a script tag\n\n    git clone https://github.com/olov/tryor.git\n\n```html\n<script src="tryor/tryor.js"></script>\n```\n',
+613 silly install resolved     readmeFilename: 'README.md',
+613 silly install resolved     _id: 'tryor@0.1.2',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '8145e4ca7caff40acde3ccf946e8b8bb75b4172b',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/tryor/-/tryor-0.1.2.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/tryor/-/tryor-0.1.2.tgz',
+613 silly install resolved     _from: 'tryor@>=0.1.2 <0.2.0',
+613 silly install resolved     scripts: {},
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: '8145e4ca7caff40acde3ccf946e8b8bb75b4172b',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/tryor/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/tryor#readme' },
+613 silly install resolved   { name: 'stringmap',
+613 silly install resolved     version: '0.2.2',
+613 silly install resolved     description: 'fast and robust stringmap',
+613 silly install resolved     main: 'stringmap.js',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/olov/stringmap.git' },
+613 silly install resolved     keywords:
+613 silly install resolved      [ 'stringmap',
+613 silly install resolved        'hashmap',
+613 silly install resolved        'hash',
+613 silly install resolved        'dict',
+613 silly install resolved        'dictionary',
+613 silly install resolved        '__proto__' ],
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     readme: '# stringmap.js\nA fast and robust stringmap implementation that can hold any string keys,\nincluding `__proto__`, with minimal overhead compared to a plain object.\nWorks in node and browsers.\n\nThe API is created to be as close to the ES6 Map API as possible. Prefer\n`sm.remove("key")` for deleting a key. ES6 Map uses `map.delete("key")`\ninstead and for that reason `sm[\'delete\']("key")` is available as a\nstringmap alias as well. Never do `sm.delete("key")` unless you\'re\ncertain to be in the land of ES5 or later.\n\n\n\n## Examples\nAvailable in `examples.js`\n\n```javascript\nvar StringMap = require("stringmap");\n\nvar sm1 = new StringMap();\nsm1.set("greeting", "yoyoma");\nsm1.set("check", true);\nsm1.set("__proto__", -1);\nconsole.log(sm1.has("greeting")); // true\nconsole.log(sm1.get("__proto__")); // -1\nsm1.remove("greeting");\nconsole.log(sm1.keys()); // [ \'check\', \'__proto__\' ]\nconsole.log(sm1.values()); // [ true, -1 ]\nconsole.log(sm1.items()); // [ [ \'check\', true ], [ \'__proto__\', -1 ] ]\nconsole.log(sm1.toString()); // {"check":true,"__proto__":-1}\n\nvar sm2 = new StringMap({\n    one: 1,\n    two: 2,\n});\nconsole.log(sm2.map(function(value, key) {\n    return value * value;\n})); // [ 1, 4 ]\nsm2.forEach(function(value, key) {\n    // ...\n});\nconsole.log(sm2.isEmpty()); // false\nconsole.log(sm2.size()); // 2\n\nvar sm3 = sm1.clone();\nsm3.merge(sm2);\nsm3.setMany({\n    a: {},\n    b: [],\n});\nconsole.log(sm3.toString()); // {"check":true,"one":1,"two":2,"a":{},"b":[],"__proto__":-1}\n```\n\n\n\n## Installation\n\n### Node\nInstall using npm\n\n    npm install stringmap\n\n```javascript\nvar StringMap = require("stringmap");\n```\n\n### Browser\nClone the repo and include it in a script tag\n\n    git clone https://github.com/olov/stringmap.git\n\n```html\n<script src="stringmap/stringmap.js"></script>\n```\n',
+613 silly install resolved     readmeFilename: 'README.md',
+613 silly install resolved     _id: 'stringmap@0.2.2',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '556c137b258f942b8776f5b2ef582aa069d7d1b1',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/stringmap/-/stringmap-0.2.2.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/stringmap/-/stringmap-0.2.2.tgz',
+613 silly install resolved     _from: 'stringmap@>=0.2.2 <0.3.0',
+613 silly install resolved     scripts: {},
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: '556c137b258f942b8776f5b2ef582aa069d7d1b1',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/stringmap/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/stringmap#readme' },
+613 silly install resolved   { name: 'source-map',
+613 silly install resolved     description: 'Generates and consumes source maps',
+613 silly install resolved     version: '0.5.6',
+613 silly install resolved     homepage: 'https://github.com/mozilla/source-map',
+613 silly install resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+613 silly install resolved     contributors:
+613 silly install resolved      [ [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object] ],
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+ssh://git@github.com/mozilla/source-map.git' },
+613 silly install resolved     main: './source-map.js',
+613 silly install resolved     files:
+613 silly install resolved      [ 'source-map.js',
+613 silly install resolved        'lib/',
+613 silly install resolved        'dist/source-map.debug.js',
+613 silly install resolved        'dist/source-map.js',
+613 silly install resolved        'dist/source-map.min.js',
+613 silly install resolved        'dist/source-map.min.js.map' ],
+613 silly install resolved     engines: { node: '>=0.10.0' },
+613 silly install resolved     license: 'BSD-3-Clause',
+613 silly install resolved     scripts:
+613 silly install resolved      { test: 'npm run build && node test/run-tests.js',
+613 silly install resolved        build: 'webpack --color',
+613 silly install resolved        toc: 'doctoc --title \'## Table of Contents\' README.md && doctoc --title \'## Table of Contents\' CONTRIBUTING.md' },
+613 silly install resolved     devDependencies: { doctoc: '^0.15.0', webpack: '^1.12.0' },
+613 silly install resolved     gitHead: 'aa0398ced67beebea34f0d36f766505656c344f6',
+613 silly install resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+613 silly install resolved     _id: 'source-map@0.5.6',
+613 silly install resolved     _shasum: '75ce38f52bf0733c5a7f0c118d81334a2bb5f412',
+613 silly install resolved     _from: 'source-map@>=0.5.3 <0.6.0',
+613 silly install resolved     _npmVersion: '3.3.12',
+613 silly install resolved     _nodeVersion: '5.3.0',
+613 silly install resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+613 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '75ce38f52bf0733c5a7f0c118d81334a2bb5f412',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz' },
+613 silly install resolved     _npmOperationalInternal:
+613 silly install resolved      { host: 'packages-12-west.internal.npmjs.com',
+613 silly install resolved        tmp: 'tmp/source-map-0.5.6.tgz_1462209962516_0.9263619624543935' },
+613 silly install resolved     directories: {},
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/source-map/-/source-map-0.5.6.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'acorn',
+613 silly install resolved     description: 'ECMAScript parser',
+613 silly install resolved     homepage: 'https://github.com/ternjs/acorn',
+613 silly install resolved     main: 'dist/acorn.js',
+613 silly install resolved     version: '2.6.4',
+613 silly install resolved     engines: { node: '>=0.4.0' },
+613 silly install resolved     maintainers: [ [Object], [Object] ],
+613 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/ternjs/acorn.git' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     scripts:
+613 silly install resolved      { prepublish: 'node bin/build-acorn.js',
+613 silly install resolved        test: 'node test/run.js' },
+613 silly install resolved     bin: { acorn: './bin/acorn' },
+613 silly install resolved     devDependencies:
+613 silly install resolved      { 'babel-core': '^5.6.15',
+613 silly install resolved        babelify: '^6.1.2',
+613 silly install resolved        browserify: '^10.2.4',
+613 silly install resolved        'browserify-derequire': '^0.9.4',
+613 silly install resolved        'unicode-7.0.0': '~0.1.5' },
+613 silly install resolved     contributors:
+613 silly install resolved      [ [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object],
+613 silly install resolved        [Object] ],
+613 silly install resolved     gitHead: '2c0e4ab7872135959dee8d331c7089353365d379',
+613 silly install resolved     bugs: { url: 'https://github.com/ternjs/acorn/issues' },
+613 silly install resolved     _id: 'acorn@2.6.4',
+613 silly install resolved     _shasum: 'eb1f45b4a43fa31d03701a5ec46f3b52673e90ee',
+613 silly install resolved     _from: 'acorn@>=2.6.4 <2.7.0',
+613 silly install resolved     _npmVersion: '1.4.21',
+613 silly install resolved     _npmUser: { name: 'marijn', email: 'marijnh@gmail.com' },
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: 'eb1f45b4a43fa31d03701a5ec46f3b52673e90ee',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/acorn/-/acorn-2.6.4.tgz' },
+613 silly install resolved     directories: {},
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/acorn/-/acorn-2.6.4.tgz',
+613 silly install resolved     readme: 'ERROR: No README data found!' },
+613 silly install resolved   { name: 'alter',
+613 silly install resolved     version: '0.2.0',
+613 silly install resolved     description: 'alters a string by replacing multiple range fragments in one fast pass',
+613 silly install resolved     main: 'alter.js',
+613 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/olov/alter.git' },
+613 silly install resolved     keywords: [ 'string', 'manipulation', 'replace', 'alter', 'modify' ],
+613 silly install resolved     scripts: { test: 'tap test/*.js' },
+613 silly install resolved     dependencies: { stable: '~0.1.3' },
+613 silly install resolved     devDependencies: { tap: '~0.4.0' },
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     _id: 'alter@0.2.0',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: 'c7588808617572034aae62480af26b1d4d1cb3cd',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/alter/-/alter-0.2.0.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/alter/-/alter-0.2.0.tgz',
+613 silly install resolved     _from: 'alter@>=0.2.0 <0.3.0',
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: 'c7588808617572034aae62480af26b1d4d1cb3cd',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/alter/issues' },
+613 silly install resolved     readme: 'ERROR: No README data found!',
+613 silly install resolved     homepage: 'https://github.com/olov/alter#readme' },
+613 silly install resolved   { name: 'simple-fmt',
+613 silly install resolved     version: '0.1.0',
+613 silly install resolved     description: 'maximally minimal string formatting library',
+613 silly install resolved     main: 'simple-fmt.js',
+613 silly install resolved     repository:
+613 silly install resolved      { type: 'git',
+613 silly install resolved        url: 'git+https://github.com/olov/simple-fmt.git' },
+613 silly install resolved     keywords: [ 'fmt', 'format', 'formatting', 'string', 'template' ],
+613 silly install resolved     scripts: { test: 'tap test/*.js' },
+613 silly install resolved     devDependencies: { tap: '~0.4.0' },
+613 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     license: 'MIT',
+613 silly install resolved     readme: '# simple-fmt.js\nA maximally minimal string formatting library. Use it to make your code more\nreadable compared to plain old string concatenation using `+`. The code is\nshorter than the MIT license text so it doesn\'t hog you down and you can use\nit everywhere. Works in node and browsers.\n\n\n\n## Usage\n```javascript\nvar fmt = require("simple-fmt");\nconsole.log(fmt("hello {0} of age {1}", name, age));\n```\n\ninstead of\n\n```javascript\nconsole.log("hello " + name + " of age " + age);\n```\n\nbecause string formatting with `+` makes your eyes bleed and fingers hurt.\n\n\nThere\'s also `fmt.obj(string, obj)` and `fmt.repeat(string, n)`:\n```javascript\nvar o = {name: "xyz", age: 42};\nfmt.obj("hello {name} of age {age}", obj);\nfmt.repeat("*", 3); // "***"\n```\n\nThat\'s it.\n\n\n\n## Installation\n\n### Node\nInstall using npm\n\n    npm install simple-fmt\n\n```javascript\nvar fmt = require("simple-fmt");\n```\n\n### Browser\nClone the repo and include it in a script tag\n\n    git clone https://github.com/olov/simple-fmt.git\n\n```html\n<script src="simple-fmt/simple-fmt.js"></script>\n```\n',
+613 silly install resolved     readmeFilename: 'README.md',
+613 silly install resolved     _id: 'simple-fmt@0.1.0',
+613 silly install resolved     dist:
+613 silly install resolved      { shasum: '191bf566a59e6530482cb25ab53b4a8dc85c3a6b',
+613 silly install resolved        tarball: 'https://registry.npmjs.org/simple-fmt/-/simple-fmt-0.1.0.tgz' },
+613 silly install resolved     _resolved: 'http://registry.npmjs.org/simple-fmt/-/simple-fmt-0.1.0.tgz',
+613 silly install resolved     _from: 'simple-fmt@>=0.1.0 <0.2.0',
+613 silly install resolved     _npmVersion: '1.2.18',
+613 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+613 silly install resolved     maintainers: [ [Object] ],
+613 silly install resolved     directories: {},
+613 silly install resolved     _shasum: '191bf566a59e6530482cb25ab53b4a8dc85c3a6b',
+613 silly install resolved     bugs: { url: 'https://github.com/olov/simple-fmt/issues' },
+613 silly install resolved     homepage: 'https://github.com/olov/simple-fmt#readme' } ]
+614 info install convert-source-map@1.1.3 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+615 info install ordered-ast-traverse@1.1.1 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+616 info install optimist@0.6.1 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+617 info install simple-is@0.2.0 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+618 info install stable@0.1.5 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+619 info install stringset@0.2.1 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+620 info install tryor@0.1.2 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+621 info install stringmap@0.2.2 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+622 info install source-map@0.5.6 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+623 info install acorn@2.6.4 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+624 info install alter@0.2.0 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+625 info install simple-fmt@0.1.0 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+626 info installOne convert-source-map@1.1.3
+627 verbose installOne of convert-source-map to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+628 info installOne ordered-ast-traverse@1.1.1
+629 verbose installOne of ordered-ast-traverse to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+630 info installOne optimist@0.6.1
+631 verbose installOne of optimist to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+632 info installOne simple-is@0.2.0
+633 verbose installOne of simple-is to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+634 info installOne stable@0.1.5
+635 verbose installOne of stable to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+636 info installOne stringset@0.2.1
+637 verbose installOne of stringset to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+638 info installOne tryor@0.1.2
+639 verbose installOne of tryor to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+640 info installOne stringmap@0.2.2
+641 verbose installOne of stringmap to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+642 info installOne source-map@0.5.6
+643 verbose installOne of source-map to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+644 info installOne acorn@2.6.4
+645 verbose installOne of acorn to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+646 info installOne alter@0.2.0
+647 verbose installOne of alter to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+648 info installOne simple-fmt@0.1.0
+649 verbose installOne of simple-fmt to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate not in flight; installing
+650 verbose lock using /home/lucas/.npm/_locks/convert-source-map-9ab18e3d2ee04426.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+651 verbose lock using /home/lucas/.npm/_locks/ordered-ast-traverse-94fe819f63a520f6.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+652 verbose lock using /home/lucas/.npm/_locks/optimist-78fefa4d764431f7.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+653 verbose lock using /home/lucas/.npm/_locks/simple-is-74990a51f1225bcf.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+654 verbose lock using /home/lucas/.npm/_locks/stable-6dbc96e9249df0fd.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+655 verbose lock using /home/lucas/.npm/_locks/stringset-1bacd13f12fb41c6.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+656 verbose lock using /home/lucas/.npm/_locks/tryor-e452f1f74ca6a32d.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+657 verbose lock using /home/lucas/.npm/_locks/stringmap-8b5acfff0f4aad03.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+658 verbose lock using /home/lucas/.npm/_locks/source-map-3faaaca51c212b51.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+659 verbose lock using /home/lucas/.npm/_locks/acorn-6fa4d0f8667e4572.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+660 silly install write writing convert-source-map 1.1.3 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+661 verbose lock using /home/lucas/.npm/_locks/alter-2051f7c88030cb61.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+662 silly install write writing ordered-ast-traverse 1.1.1 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+663 silly install write writing optimist 0.6.1 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+664 silly install write writing simple-is 0.2.0 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+665 silly install write writing stable 0.1.5 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+666 silly install write writing stringset 0.2.1 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+667 silly install write writing tryor 0.1.2 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+668 silly install write writing stringmap 0.2.2 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+669 verbose lock using /home/lucas/.npm/_locks/simple-fmt-78dc3bf27d58ad75.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+670 silly install write writing source-map 0.5.6 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+671 silly install write writing acorn 2.6.4 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+672 silly install write writing alter 0.2.0 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+673 silly install write writing simple-fmt 0.1.0 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+674 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+675 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+676 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+677 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+678 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+679 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+680 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+681 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+682 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+683 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+684 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+685 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+686 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map is being purged from base /home/lucas/projects/elproximoferiadojudio
+687 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+688 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse is being purged from base /home/lucas/projects/elproximoferiadojudio
+689 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+690 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist is being purged from base /home/lucas/projects/elproximoferiadojudio
+691 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+692 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is is being purged from base /home/lucas/projects/elproximoferiadojudio
+693 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+694 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable is being purged from base /home/lucas/projects/elproximoferiadojudio
+695 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+696 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset is being purged from base /home/lucas/projects/elproximoferiadojudio
+697 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+698 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor is being purged from base /home/lucas/projects/elproximoferiadojudio
+699 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+700 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap is being purged from base /home/lucas/projects/elproximoferiadojudio
+701 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+702 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map is being purged from base /home/lucas/projects/elproximoferiadojudio
+703 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+704 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter is being purged from base /home/lucas/projects/elproximoferiadojudio
+705 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+706 verbose tar unpack /home/lucas/.npm/convert-source-map/1.1.3/package.tgz
+707 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+708 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map is being purged
+709 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+710 verbose tar unpack /home/lucas/.npm/ordered-ast-traverse/1.1.1/package.tgz
+711 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+712 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse is being purged
+713 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+714 verbose tar unpack /home/lucas/.npm/optimist/0.6.1/package.tgz
+715 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+716 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist is being purged
+717 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+718 verbose tar unpack /home/lucas/.npm/simple-is/0.2.0/package.tgz
+719 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+720 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is is being purged
+721 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+722 verbose tar unpack /home/lucas/.npm/stable/0.1.5/package.tgz
+723 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+724 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable is being purged
+725 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+726 verbose tar unpack /home/lucas/.npm/stringset/0.2.1/package.tgz
+727 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+728 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset is being purged
+729 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+730 verbose tar unpack /home/lucas/.npm/tryor/0.1.2/package.tgz
+731 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+732 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor is being purged
+733 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+734 verbose tar unpack /home/lucas/.npm/stringmap/0.2.2/package.tgz
+735 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+736 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap is being purged
+737 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+738 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt is being purged from base /home/lucas/projects/elproximoferiadojudio
+739 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+740 verbose tar unpack /home/lucas/.npm/source-map/0.5.6/package.tgz
+741 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+742 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map is being purged
+743 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+744 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn is being purged from base /home/lucas/projects/elproximoferiadojudio
+745 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+746 verbose tar unpack /home/lucas/.npm/alter/0.2.0/package.tgz
+747 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+748 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter is being purged
+749 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+750 silly gunzTarPerm modes [ '755', '644' ]
+751 silly gunzTarPerm modes [ '755', '644' ]
+752 silly gunzTarPerm modes [ '755', '644' ]
+753 silly gunzTarPerm modes [ '755', '644' ]
+754 silly gunzTarPerm modes [ '755', '644' ]
+755 silly gunzTarPerm modes [ '755', '644' ]
+756 silly gunzTarPerm modes [ '755', '644' ]
+757 silly gunzTarPerm modes [ '755', '644' ]
+758 verbose tar unpack /home/lucas/.npm/simple-fmt/0.1.0/package.tgz
+759 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+760 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt is being purged
+761 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+762 silly gunzTarPerm modes [ '755', '644' ]
+763 verbose tar unpack /home/lucas/.npm/acorn/2.6.4/package.tgz
+764 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+765 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn is being purged
+766 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+767 silly gunzTarPerm modes [ '755', '644' ]
+768 silly gunzTarPerm modes [ '755', '644' ]
+769 silly gunzTarPerm modes [ '755', '644' ]
+770 silly gunzTarPerm extractEntry package.json
+771 silly gunzTarPerm extractEntry
+772 silly gunzTarPerm modified mode [ '', 509, 493 ]
+773 silly gunzTarPerm extractEntry package.json
+774 silly gunzTarPerm extractEntry package.json
+775 silly gunzTarPerm extractEntry package.json
+776 silly gunzTarPerm extractEntry package.json
+777 silly gunzTarPerm extractEntry package.json
+778 silly gunzTarPerm extractEntry package.json
+779 silly gunzTarPerm extractEntry package.json
+780 silly gunzTarPerm extractEntry package.json
+781 silly gunzTarPerm extractEntry package.json
+782 silly gunzTarPerm extractEntry package.json
+783 silly gunzTarPerm extractEntry .npmignore
+784 silly gunzTarPerm extractEntry README.md
+785 silly gunzTarPerm extractEntry LICENSE
+786 silly gunzTarPerm extractEntry index.js
+787 silly gunzTarPerm extractEntry README.md
+788 silly gunzTarPerm extractEntry LICENSE
+789 silly gunzTarPerm extractEntry .npmignore
+790 silly gunzTarPerm extractEntry README.md
+791 silly gunzTarPerm extractEntry README.md
+792 silly gunzTarPerm extractEntry LICENSE
+793 silly gunzTarPerm extractEntry README.md
+794 silly gunzTarPerm extractEntry LICENSE
+795 silly gunzTarPerm extractEntry README.md
+796 silly gunzTarPerm extractEntry LICENSE
+797 silly gunzTarPerm extractEntry README.md
+798 silly gunzTarPerm extractEntry README.md
+799 silly gunzTarPerm extractEntry LICENSE
+800 silly gunzTarPerm extractEntry LICENSE
+801 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+802 silly gunzTarPerm extractEntry README.md
+803 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+804 silly gunzTarPerm extractEntry ordered-ast-traverse.js
+805 silly gunzTarPerm modified mode [ 'ordered-ast-traverse.js', 436, 420 ]
+806 silly gunzTarPerm extractEntry LICENSE
+807 silly gunzTarPerm extractEntry README.md
+808 silly gunzTarPerm extractEntry LICENSE
+809 silly gunzTarPerm extractEntry .npmignore
+810 silly gunzTarPerm extractEntry README.md
+811 silly gunzTarPerm extractEntry package.json
+812 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+813 silly gunzTarPerm extractEntry LICENSE
+814 silly gunzTarPerm extractEntry index.js
+815 silly gunzTarPerm extractEntry simple-is.js
+816 silly gunzTarPerm extractEntry test/simple-is-tests.js
+817 silly gunzTarPerm extractEntry examples.js
+818 silly gunzTarPerm extractEntry stringset.js
+819 silly gunzTarPerm extractEntry tryor.js
+820 silly gunzTarPerm extractEntry examples.js
+821 silly gunzTarPerm extractEntry stringmap.js
+822 silly gunzTarPerm extractEntry .travis.yml
+823 silly gunzTarPerm extractEntry example/bool.js
+824 silly gunzTarPerm extractEntry stable.js
+825 silly gunzTarPerm extractEntry test.js
+826 silly gunzTarPerm extractEntry alter.js
+827 silly gunzTarPerm extractEntry test/alter-tests.js
+828 silly gunzTarPerm extractEntry simple-fmt.js
+829 silly gunzTarPerm extractEntry test/simple-fmt-tests.js
+830 silly gunzTarPerm extractEntry LICENSE
+831 silly gunzTarPerm extractEntry source-map.js
+832 silly gunzTarPerm extractEntry lib/array-set.js
+833 silly gunzTarPerm extractEntry lib/base64-vlq.js
+834 silly gunzTarPerm extractEntry .travis.yml
+835 silly gunzTarPerm extractEntry example/comment-to-json.js
+836 silly gunzTarPerm extractEntry test/comment-regex.js
+837 silly gunzTarPerm extractEntry test/convert-source-map.js
+838 silly gunzTarPerm extractEntry test/map-file-comment.js
+839 silly gunzTarPerm extractEntry test/fixtures/map-file-comment-double-slash.css
+840 silly gunzTarPerm extractEntry test/fixtures/map-file-comment-inline.css
+841 silly gunzTarPerm extractEntry test/fixtures/map-file-comment.css
+842 silly gunzTarPerm extractEntry test/fixtures/map-file-comment.css.map
+843 silly gunzTarPerm extractEntry .travis.yml
+844 silly gunzTarPerm extractEntry bower.json
+845 silly gunzTarPerm extractEntry .travis.yml
+846 silly gunzTarPerm extractEntry AUTHORS
+847 silly gunzTarPerm extractEntry example/default_singles.js
+848 silly gunzTarPerm extractEntry example/divide.js
+849 silly gunzTarPerm extractEntry example/line_count.js
+850 silly gunzTarPerm extractEntry example/default_hash.js
+851 silly gunzTarPerm extractEntry example/line_count_wrap.js
+852 silly gunzTarPerm extractEntry example/nonopt.js
+853 silly gunzTarPerm extractEntry example/reflect.js
+854 silly gunzTarPerm extractEntry example/short.js
+855 silly gunzTarPerm extractEntry example/string.js
+856 silly gunzTarPerm extractEntry example/boolean_single.js
+857 silly gunzTarPerm extractEntry example/usage-options.js
+858 silly gunzTarPerm extractEntry example/boolean_double.js
+859 silly gunzTarPerm extractEntry example/xup.js
+860 silly gunzTarPerm extractEntry example/line_count_options.js
+861 silly gunzTarPerm extractEntry readme.markdown
+862 silly gunzTarPerm extractEntry test/_.js
+863 silly gunzTarPerm extractEntry test/dash.js
+864 silly gunzTarPerm extractEntry test/parse.js
+865 silly gunzTarPerm extractEntry test/parse_modified.js
+866 silly gunzTarPerm extractEntry test/short.js
+867 silly gunzTarPerm extractEntry test/usage.js
+868 silly gunzTarPerm extractEntry test/whitespace.js
+869 silly gunzTarPerm extractEntry test/_/argv.js
+870 silly gunzTarPerm extractEntry test/_/bin.js
+871 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor/package.json
+872 silly gunzTarPerm extractEntry lib/base64.js
+873 info preinstall tryor@0.1.2
+874 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor/package.json
+875 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/package.json
+876 info preinstall ordered-ast-traverse@1.1.1
+877 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor/package.json
+878 silly gunzTarPerm extractEntry .gitattributes
+879 silly gunzTarPerm extractEntry .editorconfig
+880 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/package.json
+881 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter/package.json
+882 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt/package.json
+883 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is/package.json
+884 silly install resolved []
+885 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+886 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+887 info preinstall alter@0.2.0
+888 info preinstall simple-fmt@0.1.0
+889 info preinstall simple-is@0.2.0
+890 silly prepareForInstallMany adding ordered-esprima-props@~1.1.0 from ordered-ast-traverse dependencies
+891 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/package.json
+892 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset/package.json
+893 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter/package.json
+894 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt/package.json
+895 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is/package.json
+896 silly gunzTarPerm extractEntry lib/binary-search.js
+897 silly gunzTarPerm extractEntry lib/mapping-list.js
+898 silly gunzTarPerm extractEntry bin/build-acorn.js
+899 silly gunzTarPerm extractEntry bin/generate-identifier-regex.js
+900 info linkStuff tryor@0.1.2
+901 silly linkStuff tryor@0.1.2 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+902 info preinstall stringset@0.2.1
+903 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap/package.json
+904 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset/package.json
+905 silly cache add args [ 'ordered-esprima-props@~1.1.0', null ]
+906 verbose cache add spec ordered-esprima-props@~1.1.0
+907 silly cache add parsed spec { raw: 'ordered-esprima-props@~1.1.0',
+907 silly cache add   scope: null,
+907 silly cache add   name: 'ordered-esprima-props',
+907 silly cache add   rawSpec: '~1.1.0',
+907 silly cache add   spec: '>=1.1.0 <1.2.0',
+907 silly cache add   type: 'range' }
+908 silly addNamed ordered-esprima-props@>=1.1.0 <1.2.0
+909 verbose addNamed ">=1.1.0 <1.2.0" is a valid semver range for ordered-esprima-props
+910 silly addNameRange { name: 'ordered-esprima-props',
+910 silly addNameRange   range: '>=1.1.0 <1.2.0',
+910 silly addNameRange   hasData: false }
+911 silly mapToRegistry name ordered-esprima-props
+912 silly mapToRegistry using default registry
+913 silly mapToRegistry registry http://registry.npmjs.org/
+914 silly mapToRegistry uri http://registry.npmjs.org/ordered-esprima-props
+915 verbose addNameRange registry:http://registry.npmjs.org/ordered-esprima-props not in flight; fetching
+916 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter/package.json
+917 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt/package.json
+918 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is/package.json
+919 info preinstall stringmap@0.2.2
+920 silly gunzTarPerm extractEntry bin/acorn
+921 silly gunzTarPerm extractEntry bin/update_authors.sh
+922 verbose request uri http://registry.npmjs.org/ordered-esprima-props
+923 verbose request no auth needed
+924 info attempt registry request try #1 at 14:55:39
+925 verbose etag "BLP7BZMUN37UUC1NWK5H6RO1M"
+926 http request GET http://registry.npmjs.org/ordered-esprima-props
+927 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap/package.json
+928 silly gunzTarPerm extractEntry lib/quick-sort.js
+929 silly gunzTarPerm extractEntry lib/source-map-consumer.js
+930 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset/package.json
+931 silly install resolved []
+932 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+933 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+934 silly install resolved []
+935 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+936 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+937 silly install resolved []
+938 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+939 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+940 verbose linkBins tryor@0.1.2
+941 verbose linkMans tryor@0.1.2
+942 verbose rebuildBundles tryor@0.1.2
+943 info install tryor@0.1.2
+944 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable/package.json
+945 info linkStuff alter@0.2.0
+946 silly linkStuff alter@0.2.0 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+947 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap/package.json
+948 info postinstall tryor@0.1.2
+949 silly install resolved []
+950 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+951 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+952 info linkStuff simple-fmt@0.1.0
+953 silly linkStuff simple-fmt@0.1.0 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+954 info linkStuff simple-is@0.2.0
+955 silly linkStuff simple-is@0.2.0 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+956 silly gunzTarPerm extractEntry lib/source-map-generator.js
+957 silly gunzTarPerm extractEntry lib/source-node.js
+958 silly gunzTarPerm extractEntry dist/acorn.js
+959 silly gunzTarPerm extractEntry dist/acorn_loose.js
+960 info preinstall stable@0.1.5
+961 verbose unlock done using /home/lucas/.npm/_locks/tryor-e452f1f74ca6a32d.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/tryor
+962 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable/package.json
+963 info linkStuff stringset@0.2.1
+964 silly linkStuff stringset@0.2.1 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+965 silly install resolved []
+966 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+967 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+968 silly gunzTarPerm extractEntry dist/walk.js
+969 silly gunzTarPerm extractEntry dist/.keep
+970 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable/package.json
+971 info linkStuff stringmap@0.2.2
+972 silly linkStuff stringmap@0.2.2 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+973 verbose linkBins alter@0.2.0
+974 verbose linkMans alter@0.2.0
+975 verbose rebuildBundles alter@0.2.0
+976 verbose linkBins simple-is@0.2.0
+977 verbose linkMans simple-is@0.2.0
+978 verbose rebuildBundles simple-is@0.2.0
+979 verbose linkBins simple-fmt@0.1.0
+980 verbose linkMans simple-fmt@0.1.0
+981 verbose rebuildBundles simple-fmt@0.1.0
+982 info install alter@0.2.0
+983 info install simple-is@0.2.0
+984 info install simple-fmt@0.1.0
+985 info postinstall alter@0.2.0
+986 info postinstall simple-is@0.2.0
+987 info postinstall simple-fmt@0.1.0
+988 silly install resolved []
+989 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+990 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+991 silly gunzTarPerm extractEntry lib/util.js
+992 silly gunzTarPerm extractEntry dist/source-map.debug.js
+993 silly gunzTarPerm extractEntry .tern-project
+994 silly gunzTarPerm extractEntry src/whitespace.js
+995 verbose linkBins stringset@0.2.1
+996 verbose linkMans stringset@0.2.1
+997 verbose rebuildBundles stringset@0.2.1
+998 verbose unlock done using /home/lucas/.npm/_locks/alter-2051f7c88030cb61.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/alter
+999 info install stringset@0.2.1
+1000 verbose unlock done using /home/lucas/.npm/_locks/simple-is-74990a51f1225bcf.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-is
+1001 verbose unlock done using /home/lucas/.npm/_locks/simple-fmt-78dc3bf27d58ad75.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/simple-fmt
+1002 info postinstall stringset@0.2.1
+1003 info linkStuff stable@0.1.5
+1004 silly linkStuff stable@0.1.5 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1005 verbose linkBins stringmap@0.2.2
+1006 verbose linkMans stringmap@0.2.2
+1007 verbose rebuildBundles stringmap@0.2.2
+1008 verbose unlock done using /home/lucas/.npm/_locks/stringset-1bacd13f12fb41c6.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringset
+1009 info install stringmap@0.2.2
+1010 info postinstall stringmap@0.2.2
+1011 verbose unlock done using /home/lucas/.npm/_locks/stringmap-8b5acfff0f4aad03.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stringmap
+1012 silly gunzTarPerm extractEntry src/locutil.js
+1013 silly gunzTarPerm extractEntry src/util.js
+1014 verbose linkBins stable@0.1.5
+1015 verbose linkMans stable@0.1.5
+1016 verbose rebuildBundles stable@0.1.5
+1017 info install stable@0.1.5
+1018 info postinstall stable@0.1.5
+1019 verbose unlock done using /home/lucas/.npm/_locks/stable-6dbc96e9249df0fd.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/stable
+1020 silly gunzTarPerm extractEntry dist/source-map.js
+1021 silly gunzTarPerm extractEntry src/lval.js
+1022 silly gunzTarPerm extractEntry src/location.js
+1023 silly gunzTarPerm extractEntry dist/source-map.min.js
+1024 silly gunzTarPerm extractEntry src/expression.js
+1025 silly gunzTarPerm extractEntry src/parseutil.js
+1026 silly gunzTarPerm extractEntry dist/source-map.min.js.map
+1027 silly gunzTarPerm extractEntry src/state.js
+1028 silly gunzTarPerm extractEntry src/statement.js
+1029 silly gunzTarPerm extractEntry CHANGELOG.md
+1030 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map/package.json
+1031 silly gunzTarPerm extractEntry src/tokencontext.js
+1032 info preinstall convert-source-map@1.1.3
+1033 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map/package.json
+1034 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map/package.json
+1035 silly install resolved []
+1036 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+1037 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+1038 info linkStuff convert-source-map@1.1.3
+1039 silly linkStuff convert-source-map@1.1.3 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1040 silly gunzTarPerm extractEntry src/index.js
+1041 verbose linkBins convert-source-map@1.1.3
+1042 verbose linkMans convert-source-map@1.1.3
+1043 verbose rebuildBundles convert-source-map@1.1.3
+1044 info install convert-source-map@1.1.3
+1045 info postinstall convert-source-map@1.1.3
+1046 verbose unlock done using /home/lucas/.npm/_locks/convert-source-map-9ab18e3d2ee04426.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/convert-source-map
+1047 silly gunzTarPerm extractEntry src/tokenize.js
+1048 silly gunzTarPerm extractEntry src/identifier.js
+1049 silly gunzTarPerm extractEntry src/tokentype.js
+1050 http 304 http://registry.npmjs.org/ordered-esprima-props
+1051 silly get cb [ 304,
+1051 silly get   { date: 'Fri, 16 Sep 2016 17:55:42 GMT',
+1051 silly get     via: '1.1 varnish',
+1051 silly get     'cache-control': 'max-age=300',
+1051 silly get     etag: '"BLP7BZMUN37UUC1NWK5H6RO1M"',
+1051 silly get     age: '194',
+1051 silly get     connection: 'keep-alive',
+1051 silly get     'x-served-by': 'cache-fra1223-FRA',
+1051 silly get     'x-cache': 'HIT',
+1051 silly get     'x-cache-hits': '1',
+1051 silly get     'x-timer': 'S1474048542.957834,VS0,VE0',
+1051 silly get     vary: 'Accept-Encoding' } ]
+1052 verbose etag http://registry.npmjs.org/ordered-esprima-props from cache
+1053 verbose get saving ordered-esprima-props to /home/lucas/.npm/registry.npmjs.org/ordered-esprima-props/.cache.json
+1054 silly addNameRange number 2 { name: 'ordered-esprima-props',
+1054 silly addNameRange   range: '>=1.1.0 <1.2.0',
+1054 silly addNameRange   hasData: true }
+1055 silly addNameRange versions [ 'ordered-esprima-props', [ '1.0.0', '1.1.0' ] ]
+1056 silly addNamed ordered-esprima-props@1.1.0
+1057 verbose addNamed "1.1.0" is a plain semver version for ordered-esprima-props
+1058 silly cache afterAdd ordered-esprima-props@1.1.0
+1059 verbose afterAdd /home/lucas/.npm/ordered-esprima-props/1.1.0/package/package.json not in flight; writing
+1060 verbose afterAdd /home/lucas/.npm/ordered-esprima-props/1.1.0/package/package.json written
+1061 silly install resolved [ { name: 'ordered-esprima-props',
+1061 silly install resolved     version: '1.1.0',
+1061 silly install resolved     description: 'Lexical ordering of property names per Esprima AST type',
+1061 silly install resolved     main: 'ordered-esprima-props.js',
+1061 silly install resolved     repository:
+1061 silly install resolved      { type: 'git',
+1061 silly install resolved        url: 'git+https://github.com/olov/ordered-esprima-props.git' },
+1061 silly install resolved     keywords: [ 'esprima', 'ast', 'traverse' ],
+1061 silly install resolved     author: { name: 'Olov Lassus', email: 'olov.lassus@gmail.com' },
+1061 silly install resolved     license: 'MIT',
+1061 silly install resolved     bugs: { url: 'https://github.com/olov/ordered-esprima-props/issues' },
+1061 silly install resolved     homepage: 'https://github.com/olov/ordered-esprima-props',
+1061 silly install resolved     _id: 'ordered-esprima-props@1.1.0',
+1061 silly install resolved     _shasum: 'a9827086df5f010aa60e9bd02b6e0335cea2ffcb',
+1061 silly install resolved     _resolved: 'http://registry.npmjs.org/ordered-esprima-props/-/ordered-esprima-props-1.1.0.tgz',
+1061 silly install resolved     _from: 'ordered-esprima-props@>=1.1.0 <1.2.0',
+1061 silly install resolved     scripts: {},
+1061 silly install resolved     _npmVersion: '2.0.0',
+1061 silly install resolved     _npmUser: { name: 'olov', email: 'olov.lassus@gmail.com' },
+1061 silly install resolved     maintainers: [ [Object] ],
+1061 silly install resolved     dist:
+1061 silly install resolved      { shasum: 'a9827086df5f010aa60e9bd02b6e0335cea2ffcb',
+1061 silly install resolved        tarball: 'https://registry.npmjs.org/ordered-esprima-props/-/ordered-esprima-props-1.1.0.tgz' },
+1061 silly install resolved     directories: {},
+1061 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1062 info install ordered-esprima-props@1.1.0 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+1063 info installOne ordered-esprima-props@1.1.0
+1064 verbose installOne of ordered-esprima-props to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse not in flight; installing
+1065 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/package.json
+1066 verbose lock using /home/lucas/.npm/_locks/ordered-esprima-props-a0b1c97fee278800.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1067 silly install write writing ordered-esprima-props 1.1.0 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1068 silly gunzTarPerm extractEntry src/node.js
+1069 info preinstall optimist@0.6.1
+1070 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1071 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/package.json
+1072 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props is being purged from base /home/lucas/projects/elproximoferiadojudio
+1073 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1074 verbose tar unpack /home/lucas/.npm/ordered-esprima-props/1.1.0/package.tgz
+1075 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1076 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props is being purged
+1077 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1078 silly gunzTarPerm modes [ '755', '644' ]
+1079 silly prepareForInstallMany adding wordwrap@~0.0.2 from optimist dependencies
+1080 silly prepareForInstallMany adding minimist@~0.0.1 from optimist dependencies
+1081 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/package.json
+1082 silly gunzTarPerm extractEntry
+1083 silly gunzTarPerm modified mode [ '', 509, 493 ]
+1084 silly gunzTarPerm extractEntry LICENSE
+1085 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+1086 silly gunzTarPerm extractEntry README.md
+1087 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+1088 silly gunzTarPerm extractEntry ordered-esprima-props.js
+1089 silly gunzTarPerm modified mode [ 'ordered-esprima-props.js', 436, 420 ]
+1090 silly cache add args [ 'wordwrap@~0.0.2', null ]
+1091 verbose cache add spec wordwrap@~0.0.2
+1092 silly cache add args [ 'minimist@~0.0.1', null ]
+1093 verbose cache add spec minimist@~0.0.1
+1094 silly cache add parsed spec { raw: 'wordwrap@~0.0.2',
+1094 silly cache add   scope: null,
+1094 silly cache add   name: 'wordwrap',
+1094 silly cache add   rawSpec: '~0.0.2',
+1094 silly cache add   spec: '>=0.0.2 <0.1.0',
+1094 silly cache add   type: 'range' }
+1095 silly addNamed wordwrap@>=0.0.2 <0.1.0
+1096 verbose addNamed ">=0.0.2 <0.1.0" is a valid semver range for wordwrap
+1097 silly addNameRange { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: false }
+1098 silly mapToRegistry name wordwrap
+1099 silly mapToRegistry using default registry
+1100 silly mapToRegistry registry http://registry.npmjs.org/
+1101 silly mapToRegistry uri http://registry.npmjs.org/wordwrap
+1102 verbose addNameRange registry:http://registry.npmjs.org/wordwrap not in flight; fetching
+1103 silly cache add parsed spec { raw: 'minimist@~0.0.1',
+1103 silly cache add   scope: null,
+1103 silly cache add   name: 'minimist',
+1103 silly cache add   rawSpec: '~0.0.1',
+1103 silly cache add   spec: '>=0.0.1 <0.1.0',
+1103 silly cache add   type: 'range' }
+1104 silly addNamed minimist@>=0.0.1 <0.1.0
+1105 verbose addNamed ">=0.0.1 <0.1.0" is a valid semver range for minimist
+1106 silly addNameRange { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: false }
+1107 silly mapToRegistry name minimist
+1108 silly mapToRegistry using default registry
+1109 silly mapToRegistry registry http://registry.npmjs.org/
+1110 silly mapToRegistry uri http://registry.npmjs.org/minimist
+1111 verbose addNameRange registry:http://registry.npmjs.org/minimist not in flight; fetching
+1112 verbose request uri http://registry.npmjs.org/wordwrap
+1113 verbose request no auth needed
+1114 info attempt registry request try #1 at 14:55:40
+1115 verbose etag "569DKQBV6UAUGE684ZCXW002L"
+1116 http request GET http://registry.npmjs.org/wordwrap
+1117 verbose request uri http://registry.npmjs.org/minimist
+1118 verbose request no auth needed
+1119 info attempt registry request try #1 at 14:55:40
+1120 verbose etag "A220HHKA9DZ9CUOVMY1218AL0"
+1121 http request GET http://registry.npmjs.org/minimist
+1122 silly gunzTarPerm extractEntry package.json
+1123 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+1124 silly gunzTarPerm extractEntry src/options.js
+1125 silly gunzTarPerm extractEntry src/loose/acorn_loose.js
+1126 silly gunzTarPerm extractEntry src/loose/expression.js
+1127 silly gunzTarPerm extractEntry src/loose/index.js
+1128 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props/package.json
+1129 info preinstall ordered-esprima-props@1.1.0
+1130 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props/package.json
+1131 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props/package.json
+1132 silly gunzTarPerm extractEntry src/loose/parseutil.js
+1133 silly install resolved []
+1134 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1135 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1136 info linkStuff ordered-esprima-props@1.1.0
+1137 silly linkStuff ordered-esprima-props@1.1.0 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules as its parent node_modules
+1138 verbose linkBins ordered-esprima-props@1.1.0
+1139 verbose linkMans ordered-esprima-props@1.1.0
+1140 verbose rebuildBundles ordered-esprima-props@1.1.0
+1141 info install ordered-esprima-props@1.1.0
+1142 info postinstall ordered-esprima-props@1.1.0
+1143 verbose unlock done using /home/lucas/.npm/_locks/ordered-esprima-props-a0b1c97fee278800.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse/node_modules/ordered-esprima-props
+1144 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+1145 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+1146 info linkStuff ordered-ast-traverse@1.1.1
+1147 silly linkStuff ordered-ast-traverse@1.1.1 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1148 silly gunzTarPerm extractEntry src/loose/state.js
+1149 verbose linkBins ordered-ast-traverse@1.1.1
+1150 verbose linkMans ordered-ast-traverse@1.1.1
+1151 verbose rebuildBundles ordered-ast-traverse@1.1.1
+1152 verbose rebuildBundles [ 'ordered-esprima-props' ]
+1153 info install ordered-ast-traverse@1.1.1
+1154 info postinstall ordered-ast-traverse@1.1.1
+1155 verbose unlock done using /home/lucas/.npm/_locks/ordered-ast-traverse-94fe819f63a520f6.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/ordered-ast-traverse
+1156 silly gunzTarPerm extractEntry src/loose/statement.js
+1157 silly gunzTarPerm extractEntry src/loose/tokenize.js
+1158 silly gunzTarPerm extractEntry src/walk/index.js
+1159 silly gunzTarPerm extractEntry src/bin/acorn.js
+1160 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/package.json
+1161 info preinstall acorn@2.6.4
+1162 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/package.json
+1163 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn/package.json
+1164 silly install resolved []
+1165 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+1166 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+1167 info linkStuff acorn@2.6.4
+1168 silly linkStuff acorn@2.6.4 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1169 verbose linkBins acorn@2.6.4
+1170 verbose link bins [ { acorn: './bin/acorn' },
+1170 verbose link bins   '/home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/.bin',
+1170 verbose link bins   false ]
+1171 verbose linkMans acorn@2.6.4
+1172 verbose rebuildBundles acorn@2.6.4
+1173 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/.bin/acorn is being purged
+1174 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/.bin/acorn
+1175 info install acorn@2.6.4
+1176 info postinstall acorn@2.6.4
+1177 verbose unlock done using /home/lucas/.npm/_locks/acorn-6fa4d0f8667e4572.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/acorn
+1178 http 304 http://registry.npmjs.org/minimist
+1179 silly get cb [ 304,
+1179 silly get   { date: 'Fri, 16 Sep 2016 17:55:43 GMT',
+1179 silly get     via: '1.1 varnish',
+1179 silly get     'cache-control': 'max-age=300',
+1179 silly get     etag: '"A220HHKA9DZ9CUOVMY1218AL0"',
+1179 silly get     age: '287',
+1179 silly get     connection: 'keep-alive',
+1179 silly get     'x-served-by': 'cache-fra1221-FRA',
+1179 silly get     'x-cache': 'HIT',
+1179 silly get     'x-cache-hits': '16',
+1179 silly get     'x-timer': 'S1474048543.052212,VS0,VE0',
+1179 silly get     vary: 'Accept-Encoding' } ]
+1180 verbose etag http://registry.npmjs.org/minimist from cache
+1181 verbose get saving minimist to /home/lucas/.npm/registry.npmjs.org/minimist/.cache.json
+1182 silly addNameRange number 2 { name: 'minimist', range: '>=0.0.1 <0.1.0', hasData: true }
+1183 silly addNameRange versions [ 'minimist',
+1183 silly addNameRange   [ '0.0.0',
+1183 silly addNameRange     '0.0.1',
+1183 silly addNameRange     '0.0.2',
+1183 silly addNameRange     '0.0.3',
+1183 silly addNameRange     '0.0.4',
+1183 silly addNameRange     '0.0.5',
+1183 silly addNameRange     '0.0.6',
+1183 silly addNameRange     '0.0.7',
+1183 silly addNameRange     '0.0.8',
+1183 silly addNameRange     '0.0.9',
+1183 silly addNameRange     '0.0.10',
+1183 silly addNameRange     '0.1.0',
+1183 silly addNameRange     '0.2.0',
+1183 silly addNameRange     '1.0.0',
+1183 silly addNameRange     '1.1.0',
+1183 silly addNameRange     '1.1.1',
+1183 silly addNameRange     '1.1.2',
+1183 silly addNameRange     '1.1.3',
+1183 silly addNameRange     '1.2.0' ] ]
+1184 silly addNamed minimist@0.0.10
+1185 verbose addNamed "0.0.10" is a plain semver version for minimist
+1186 http 304 http://registry.npmjs.org/wordwrap
+1187 silly get cb [ 304,
+1187 silly get   { date: 'Fri, 16 Sep 2016 17:55:43 GMT',
+1187 silly get     via: '1.1 varnish',
+1187 silly get     'cache-control': 'max-age=300',
+1187 silly get     etag: '"569DKQBV6UAUGE684ZCXW002L"',
+1187 silly get     age: '299',
+1187 silly get     connection: 'keep-alive',
+1187 silly get     'x-served-by': 'cache-fra1236-FRA',
+1187 silly get     'x-cache': 'HIT',
+1187 silly get     'x-cache-hits': '10',
+1187 silly get     'x-timer': 'S1474048543.058675,VS0,VE0',
+1187 silly get     vary: 'Accept-Encoding' } ]
+1188 verbose etag http://registry.npmjs.org/wordwrap from cache
+1189 verbose get saving wordwrap to /home/lucas/.npm/registry.npmjs.org/wordwrap/.cache.json
+1190 silly cache afterAdd minimist@0.0.10
+1191 verbose afterAdd /home/lucas/.npm/minimist/0.0.10/package/package.json not in flight; writing
+1192 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2 <0.1.0', hasData: true }
+1193 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2', '0.0.3', '1.0.0' ] ]
+1194 silly addNamed wordwrap@0.0.3
+1195 verbose addNamed "0.0.3" is a plain semver version for wordwrap
+1196 verbose afterAdd /home/lucas/.npm/minimist/0.0.10/package/package.json written
+1197 silly cache afterAdd wordwrap@0.0.3
+1198 verbose afterAdd /home/lucas/.npm/wordwrap/0.0.3/package/package.json not in flight; writing
+1199 verbose afterAdd /home/lucas/.npm/wordwrap/0.0.3/package/package.json written
+1200 silly install resolved [ { name: 'minimist',
+1200 silly install resolved     version: '0.0.10',
+1200 silly install resolved     description: 'parse argument options',
+1200 silly install resolved     main: 'index.js',
+1200 silly install resolved     devDependencies: { tape: '~1.0.4', tap: '~0.4.0' },
+1200 silly install resolved     scripts: { test: 'tap test/*.js' },
+1200 silly install resolved     testling: { files: 'test/*.js', browsers: [Object] },
+1200 silly install resolved     repository: { type: 'git', url: 'git://github.com/substack/minimist.git' },
+1200 silly install resolved     homepage: 'https://github.com/substack/minimist',
+1200 silly install resolved     keywords: [ 'argv', 'getopt', 'parser', 'optimist' ],
+1200 silly install resolved     author:
+1200 silly install resolved      { name: 'James Halliday',
+1200 silly install resolved        email: 'mail@substack.net',
+1200 silly install resolved        url: 'http://substack.net' },
+1200 silly install resolved     license: 'MIT',
+1200 silly install resolved     bugs: { url: 'https://github.com/substack/minimist/issues' },
+1200 silly install resolved     _id: 'minimist@0.0.10',
+1200 silly install resolved     dist:
+1200 silly install resolved      { shasum: 'de3f98543dbf96082be48ad1a0c7cda836301dcf',
+1200 silly install resolved        tarball: 'https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz' },
+1200 silly install resolved     _from: 'minimist@>=0.0.1 <0.1.0',
+1200 silly install resolved     _npmVersion: '1.4.3',
+1200 silly install resolved     _npmUser: { name: 'substack', email: 'mail@substack.net' },
+1200 silly install resolved     maintainers: [ [Object] ],
+1200 silly install resolved     directories: {},
+1200 silly install resolved     _shasum: 'de3f98543dbf96082be48ad1a0c7cda836301dcf',
+1200 silly install resolved     _resolved: 'http://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz',
+1200 silly install resolved     readme: 'ERROR: No README data found!' },
+1200 silly install resolved   { name: 'wordwrap',
+1200 silly install resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+1200 silly install resolved     version: '0.0.3',
+1200 silly install resolved     repository:
+1200 silly install resolved      { type: 'git',
+1200 silly install resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+1200 silly install resolved     main: './index.js',
+1200 silly install resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+1200 silly install resolved     directories: { lib: '.', example: 'example', test: 'test' },
+1200 silly install resolved     scripts: { test: 'expresso' },
+1200 silly install resolved     devDependencies: { expresso: '=0.7.x' },
+1200 silly install resolved     engines: { node: '>=0.4.0' },
+1200 silly install resolved     license: 'MIT',
+1200 silly install resolved     author:
+1200 silly install resolved      { name: 'James Halliday',
+1200 silly install resolved        email: 'mail@substack.net',
+1200 silly install resolved        url: 'http://substack.net' },
+1200 silly install resolved     gitHead: 'e59aa1bd338914019456bdfba034508c9c4cb29d',
+1200 silly install resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+1200 silly install resolved     homepage: 'https://github.com/substack/node-wordwrap#readme',
+1200 silly install resolved     _id: 'wordwrap@0.0.3',
+1200 silly install resolved     _shasum: 'a3d5da6cd5c0bc0008d37234bbaf1bed63059107',
+1200 silly install resolved     _from: 'wordwrap@>=0.0.2 <0.1.0',
+1200 silly install resolved     _npmVersion: '2.9.0',
+1200 silly install resolved     _nodeVersion: '2.0.0',
+1200 silly install resolved     _npmUser: { name: 'substack', email: 'substack@gmail.com' },
+1200 silly install resolved     dist:
+1200 silly install resolved      { shasum: 'a3d5da6cd5c0bc0008d37234bbaf1bed63059107',
+1200 silly install resolved        tarball: 'https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz' },
+1200 silly install resolved     maintainers: [ [Object] ],
+1200 silly install resolved     _resolved: 'http://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz',
+1200 silly install resolved     readme: 'ERROR: No README data found!' } ]
+1201 info install minimist@0.0.10 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+1202 info install wordwrap@0.0.3 into /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+1203 info installOne minimist@0.0.10
+1204 verbose installOne of minimist to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist not in flight; installing
+1205 info installOne wordwrap@0.0.3
+1206 verbose installOne of wordwrap to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist not in flight; installing
+1207 verbose lock using /home/lucas/.npm/_locks/minimist-f62819b43687c5f2.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1208 verbose lock using /home/lucas/.npm/_locks/wordwrap-15acb0667e882fd3.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1209 silly install write writing minimist 0.0.10 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1210 silly install write writing wordwrap 0.0.3 to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1211 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1212 verbose unbuild node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1213 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist is being purged from base /home/lucas/projects/elproximoferiadojudio
+1214 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1215 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap is being purged from base /home/lucas/projects/elproximoferiadojudio
+1216 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1217 verbose tar unpack /home/lucas/.npm/minimist/0.0.10/package.tgz
+1218 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1219 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist is being purged
+1220 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1221 verbose tar unpack /home/lucas/.npm/wordwrap/0.0.3/package.tgz
+1222 verbose tar unpacking to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1223 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap is being purged
+1224 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1225 silly gunzTarPerm modes [ '755', '644' ]
+1226 silly gunzTarPerm modes [ '755', '644' ]
+1227 silly gunzTarPerm extractEntry package.json
+1228 silly gunzTarPerm extractEntry package.json
+1229 silly gunzTarPerm extractEntry LICENSE
+1230 silly gunzTarPerm extractEntry index.js
+1231 silly gunzTarPerm extractEntry LICENSE
+1232 silly gunzTarPerm extractEntry index.js
+1233 silly gunzTarPerm extractEntry .travis.yml
+1234 silly gunzTarPerm extractEntry example/parse.js
+1235 silly gunzTarPerm extractEntry README.markdown
+1236 silly gunzTarPerm extractEntry example/center.js
+1237 silly gunzTarPerm extractEntry readme.markdown
+1238 silly gunzTarPerm extractEntry test/bool.js
+1239 silly gunzTarPerm extractEntry example/meat.js
+1240 silly gunzTarPerm extractEntry test/break.js
+1241 silly gunzTarPerm extractEntry test/wrap.js
+1242 silly gunzTarPerm extractEntry test/idleness.txt
+1243 silly gunzTarPerm extractEntry test/dash.js
+1244 silly gunzTarPerm extractEntry test/default_bool.js
+1245 silly gunzTarPerm extractEntry test/dotted.js
+1246 silly gunzTarPerm extractEntry test/long.js
+1247 silly gunzTarPerm extractEntry test/num.js
+1248 silly gunzTarPerm extractEntry test/parse.js
+1249 silly gunzTarPerm extractEntry test/parse_modified.js
+1250 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map/package.json
+1251 info preinstall source-map@0.5.6
+1252 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map/package.json
+1253 silly gunzTarPerm extractEntry test/short.js
+1254 silly gunzTarPerm extractEntry test/whitespace.js
+1255 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map/package.json
+1256 silly install resolved []
+1257 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+1258 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+1259 info linkStuff source-map@0.5.6
+1260 silly linkStuff source-map@0.5.6 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1261 verbose linkBins source-map@0.5.6
+1262 verbose linkMans source-map@0.5.6
+1263 verbose rebuildBundles source-map@0.5.6
+1264 info install source-map@0.5.6
+1265 info postinstall source-map@0.5.6
+1266 verbose unlock done using /home/lucas/.npm/_locks/source-map-3faaaca51c212b51.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/source-map
+1267 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap/package.json
+1268 info preinstall wordwrap@0.0.3
+1269 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap/package.json
+1270 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap/package.json
+1271 silly install resolved []
+1272 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1273 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1274 info linkStuff wordwrap@0.0.3
+1275 silly linkStuff wordwrap@0.0.3 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules as its parent node_modules
+1276 verbose write writing to /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist/package.json
+1277 info preinstall minimist@0.0.10
+1278 verbose linkBins wordwrap@0.0.3
+1279 verbose linkMans wordwrap@0.0.3
+1280 verbose rebuildBundles wordwrap@0.0.3
+1281 info install wordwrap@0.0.3
+1282 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist/package.json
+1283 info postinstall wordwrap@0.0.3
+1284 verbose unlock done using /home/lucas/.npm/_locks/wordwrap-15acb0667e882fd3.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/wordwrap
+1285 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist/package.json
+1286 silly install resolved []
+1287 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1288 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1289 info linkStuff minimist@0.0.10
+1290 silly linkStuff minimist@0.0.10 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules as its parent node_modules
+1291 verbose linkBins minimist@0.0.10
+1292 verbose linkMans minimist@0.0.10
+1293 verbose rebuildBundles minimist@0.0.10
+1294 info install minimist@0.0.10
+1295 info postinstall minimist@0.0.10
+1296 verbose unlock done using /home/lucas/.npm/_locks/minimist-f62819b43687c5f2.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist/node_modules/minimist
+1297 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+1298 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+1299 info linkStuff optimist@0.6.1
+1300 silly linkStuff optimist@0.6.1 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules as its parent node_modules
+1301 verbose linkBins optimist@0.6.1
+1302 verbose linkMans optimist@0.6.1
+1303 verbose rebuildBundles optimist@0.6.1
+1304 verbose rebuildBundles [ 'minimist', 'wordwrap' ]
+1305 info install optimist@0.6.1
+1306 info postinstall optimist@0.6.1
+1307 verbose unlock done using /home/lucas/.npm/_locks/optimist-78fefa4d764431f7.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate/node_modules/optimist
+1308 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+1309 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+1310 info linkStuff ng-annotate@1.2.1
+1311 silly linkStuff ng-annotate@1.2.1 has /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules as its parent node_modules
+1312 verbose linkBins ng-annotate@1.2.1
+1313 verbose link bins [ { 'ng-annotate': './build/es5/ng-annotate' },
+1313 verbose link bins   '/home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/.bin',
+1313 verbose link bins   false ]
+1314 verbose linkMans ng-annotate@1.2.1
+1315 verbose rebuildBundles ng-annotate@1.2.1
+1316 verbose rebuildBundles [ '.bin',
+1316 verbose rebuildBundles   'acorn',
+1316 verbose rebuildBundles   'alter',
+1316 verbose rebuildBundles   'convert-source-map',
+1316 verbose rebuildBundles   'optimist',
+1316 verbose rebuildBundles   'ordered-ast-traverse',
+1316 verbose rebuildBundles   'simple-fmt',
+1316 verbose rebuildBundles   'simple-is',
+1316 verbose rebuildBundles   'source-map',
+1316 verbose rebuildBundles   'stable',
+1316 verbose rebuildBundles   'stringmap',
+1316 verbose rebuildBundles   'stringset',
+1316 verbose rebuildBundles   'tryor' ]
+1317 silly gentlyRm /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/.bin/ng-annotate is being purged
+1318 verbose gentlyRm don't care about contents; nuking /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/.bin/ng-annotate
+1319 info install ng-annotate@1.2.1
+1320 info postinstall ng-annotate@1.2.1
+1321 verbose unlock done using /home/lucas/.npm/_locks/ng-annotate-fa588e76953819d2.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/node_modules/ng-annotate
+1322 verbose about to build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+1323 info build /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+1324 info linkStuff grunt-ng-annotate@2.0.2
+1325 silly linkStuff grunt-ng-annotate@2.0.2 has /home/lucas/projects/elproximoferiadojudio/node_modules as its parent node_modules
+1326 verbose linkBins grunt-ng-annotate@2.0.2
+1327 verbose linkMans grunt-ng-annotate@2.0.2
+1328 verbose rebuildBundles grunt-ng-annotate@2.0.2
+1329 verbose rebuildBundles [ '.bin', 'lodash.clonedeep', 'ng-annotate' ]
+1330 info install grunt-ng-annotate@2.0.2
+1331 info postinstall grunt-ng-annotate@2.0.2
+1332 verbose readDependencies loading dependencies from /home/lucas/projects/elproximoferiadojudio/package.json
+1333 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/angular/package.json
+1334 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt/package.json
+1335 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-concat/package.json
+1336 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-copy/package.json
+1337 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-jshint/package.json
+1338 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-nodeunit/package.json
+1339 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-contrib-uglify/package.json
+1340 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate/package.json
+1341 verbose targetResolver reading package data from /home/lucas/projects/elproximoferiadojudio/node_modules/underscore/package.json
+1342 verbose already installed skipping grunt@>=0.4.5 /home/lucas/projects/elproximoferiadojudio
+1343 silly install resolved []
+1344 verbose unlock done using /home/lucas/.npm/_locks/grunt-ng-annotate-47467c1ba521d4f7.lock for /home/lucas/projects/elproximoferiadojudio/node_modules/grunt-ng-annotate
+1345 verbose validateInstall loading /home/lucas/projects/elproximoferiadojudio/package.json for validation
+1346 verbose stack Error: The package grunt does not satisfy its siblings' peerDependencies requirements!
+1346 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+1346 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:267:7
+1346 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:138:5
+1346 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1346 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1346 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1346 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1346 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1346 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+1346 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:251:14
+1347 verbose cwd /home/lucas/projects/elproximoferiadojudio
+1348 error Linux 3.13.0-57-generic
+1349 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "grunt-ng-annotate" "--save-dev"
+1350 error node v0.12.7
+1351 error npm  v2.11.3
+1352 error code EPEERINVALID
+1353 error peerinvalid The package grunt does not satisfy its siblings' peerDependencies requirements!
+1353 error peerinvalid Peer grunt-ng-annotate@2.0.2 wants grunt@>=0.4.5
+1353 error peerinvalid Peer grunt-contrib-concat@1.0.1 wants grunt@>=0.4.0
+1353 error peerinvalid Peer grunt-contrib-jshint@0.10.0 wants grunt@~0.4.0
+1353 error peerinvalid Peer grunt-contrib-uglify@0.5.1 wants grunt@~0.4.0
+1353 error peerinvalid Peer grunt-contrib-nodeunit@0.4.1 wants grunt@~0.4.0
+1354 verbose exit [ 1, true ]
